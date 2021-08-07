@@ -10,7 +10,7 @@ font-family: 'Noto Sans TC', sans-serif;
 }
 
 .index-page {
-background: url('https://www.thescottishsun.co.uk/wp-content/uploads/sites/2/2018/04/nintchdbpict000373073391.jpg') no-repeat center center fixed;
+background: url('https://www.thescottishsun.co.uk/wp-content/uploads/sites/2/2021/01/NINTCHDBPICT000630031350.jpg') no-repeat center center fixed;
 background-size: cover;
 height: 100vh;
 
@@ -20,19 +20,58 @@ div#topnav{
 height: 100px;
 }
 
+.home-page-container{
+color: white;
+margin-top: 60px;
+text-align: center;
+}
+
+a.shop-button.btn.btn-lg.rounded-0.center-align{
+background-color: white;
+color: #000000
+}
+
+a.shop-button.btn.btn-lg.rounded-0.center-align:hover{
+background-color: #000000;
+color: #ffffff
+}
+
+.my-account{
+color: #000000;
+}
+
+.my-account-icon{
+color: #000000;
+}
+
+.shopping-bag-icon{
+color: #000000;
+}
+
+.grand-total{
+color: #000000
+}
+
 .logo-font{
 text-align: left;
-color: green;
-padding-top: 3px;
+color: #000000;
 font-size: 2em;
 }
 
 .input-border{
-border: 1px solid black;
+border: 1px solid #000000;
 }
 
-.search-icon{
-font-size: 20px;
+button.form-control.btn.btn-black.border.border-black.rounded-0{
+background-color: #000000;
+color: #ffffff;
+border-radius: 10px;
+height: 39px
+}
+
+button.form-control.btn.btn-black.border.border-black.rounded-0:hover{
+color: #000000;
+background-color: #ffffff
 }
 
 .container-text{
