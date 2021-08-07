@@ -13,12 +13,56 @@ font-family: 'Noto Sans TC', sans-serif;
 background: url('https://www.thescottishsun.co.uk/wp-content/uploads/sites/2/2021/01/NINTCHDBPICT000630031350.jpg') no-repeat center center fixed;
 background-size: cover;
 height: 100vh;
+}
+
+a#all-products-link.logo-font.nav-link.text-black.mr-5{
+font-size: 20px;
+color: #000000;
+}
+
+a#specials-link.logo-font.nav-link.text-black{
+font-size: 20px;
+color: #000000;
+
+}
+
+a#homeware-link.logo-font.nav-link.text-black{
+font-size: 20px;
+color: #000000;
+
+}
+
+a#clothing-link.logo-font.nav-link.text-black.mr-5{
+font-size: 20px;
+color: #000000;
 
 }
   
 div#topnav{
 height: 100px;
+background-color:#B2D0B4
 }
+
+nav.navbar.navbar-expand-lg{
+background-color:#B2D0B4;
+height: 27px;
+}
+
+.bg{
+display: block;
+margin: auto;
+background-color: #000000;
+color: #ffffff;
+font-size: 10px;
+}
+
+h4.free-delivery-logo.logo-font{
+color: #ffffff;
+text-align: center;
+padding-top: 5px;
+}
+
+
 
 .home-page-container{
 color: white;
@@ -62,19 +106,56 @@ font-size: 2em;
 border: 1px solid #000000;
 }
 
-button.form-control.btn.btn-black.border.border-black.rounded-0{
+button.form-control.btn.btn-black.border.rounded-0{
 background-color: #000000;
 color: #ffffff;
 border-radius: 10px;
 height: 39px
 }
 
-button.form-control.btn.btn-black.border.border-black.rounded-0:hover{
+button.form-control.btn.btn-black.border.rounded-0:hover{
 color: #000000;
-background-color: #ffffff
+background-color: #B2D0B4
 }
 
 .container-text{
 padding-top: 150px;
 }
+
+.fade-in-text{
+    animation: fadeIn linear 5s;
+    -webkit-animation: fadeIn linear 5s;
+    -moz-animation: fadeIn linear 5s;
+    -o-animation: fadeIn linear 5s;
+    -ms-animation: fadeIn linear 5s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+  footer{
+   background-color: #B2D0B4
+  }
 
