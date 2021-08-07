@@ -10,7 +10,7 @@ font-family: 'Noto Sans TC', sans-serif;
 }
 
 .index-page {
-background: url('https://www.thescottishsun.co.uk/wp-content/uploads/sites/2/2021/01/NINTCHDBPICT000630031350.jpg') no-repeat center center fixed;
+background: url('https://thecelticbhoys.com/wp-content/uploads/getty-images/2018/03/868745492-celtic-fc-v-bayern-muenchen-uefa-champions-league.jpg.jpg') no-repeat center center fixed;
 background-size: cover;
 height: 100vh;
 }
@@ -67,6 +67,16 @@ padding-top: 5px;
 .home-page-container{
 color: white;
 margin-top: 60px;
+text-align: center;
+background-color: #000000;
+opacity: 0.8;
+padding: 5px;
+margin-bottom: 5px;
+text-align: center;
+}
+
+div.home-page-container.col-sm-6.fade-in-text{
+border-radius: 5px;
 text-align: center;
 }
 
