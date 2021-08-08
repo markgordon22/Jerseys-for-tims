@@ -7,6 +7,7 @@ height: 100%;
 body{
 height: 100vh;
 font-family: 'Noto Sans TC', sans-serif;
+
 }
 
 .index-page {
@@ -17,47 +18,48 @@ height: 100vh;
 
 a#all-products-link.logo-font.nav-link.text-black.mr-5{
 font-size: 20px;
-color: #000000;
+color: #ffffff;
+margin-bottom: 20px;
 }
 
 a#specials-link.logo-font.nav-link.text-black{
 font-size: 20px;
-color: #000000;
+color: #ffffff;
 
 }
 
 a#homeware-link.logo-font.nav-link.text-black{
 font-size: 20px;
-color: #000000;
+color: #ffffff;
 
 }
 
 a#clothing-link.logo-font.nav-link.text-black.mr-5{
 font-size: 20px;
-color: #000000;
+color: #ffffff;
 
 }
   
 div#topnav{
 height: 100px;
-background-color:#B2D0B4
+background-color:#343A40
 }
 
 nav.navbar.navbar-expand-lg{
-background-color:#B2D0B4;
+background-color:#343A40;
 height: 27px;
 }
 
 .bg{
 display: block;
 margin: auto;
-background-color: #000000;
-color: #ffffff;
+background-color: #ffc107;
+color: #000000;
 font-size: 10px;
 }
 
 h4.free-delivery-logo.logo-font{
-color: #ffffff;
+color: #000000;
 text-align: center;
 padding-top: 5px;
 }
@@ -91,29 +93,30 @@ color: #ffffff
 }
 
 .my-account{
-color: #000000;
+color: #ffffff;
 }
 
 .my-account-icon{
-color: #000000;
+color: #ffffff;
 }
 
 .shopping-bag-icon{
-color: #000000;
+color: #ffffff;
 }
 
 .grand-total{
-color: #000000
+color: #ffffff
 }
 
 .logo-font{
 text-align: left;
-color: #000000;
+color: #ffffff;
 font-size: 2em;
 }
 
-.input-border{
-border: 1px solid #000000;
+input.form-control.input-border{
+border: 10px solid #ffffff;
+height: 39px;
 }
 
 button.form-control.btn.btn-black.border.rounded-0{
@@ -130,6 +133,10 @@ background-color: #B2D0B4
 
 .container-text{
 padding-top: 150px;
+}
+
+.carousel-item{
+height: 400px;
 }
 
 .fade-in-text{
@@ -166,6 +173,24 @@ padding-top: 150px;
   }
 
   footer{
-   background-color: #B2D0B4
+   background-color: #B2D0B4;
+   
+  }
+
+  div.col.bg h4 {
+    width: 100%;
+    overflow: hidden;
+    
+  }
+  
+  div.col.bg h4 {
+    animation: 2s slide-right 2s forwards;
+      transform:translateX(-100%);
+  }
+  
+  @keyframes slide-right {
+    to {
+      transform:translateX(0);
+    }
   }
 
