@@ -11,7 +11,7 @@ font-family: 'Noto Sans TC', sans-serif;
 }
 
 .index-page {
-background: url('https://thecelticbhoys.com/wp-content/uploads/getty-images/2018/03/868745492-celtic-fc-v-bayern-muenchen-uefa-champions-league.jpg.jpg') no-repeat center center fixed;
+background: url('/media/celticparkhead.jpeg') no-repeat center center fixed;
 background-size: cover;
 height: 100vh;
 }
@@ -62,16 +62,14 @@ h4.free-delivery-logo.logo-font{
 color: #000000;
 text-align: center;
 padding-top: 5px;
+
 }
-
-
 
 .home-page-container{
 color: white;
 margin-top: 60px;
 text-align: center;
 background-color: #000000;
-opacity: 0.8;
 padding: 5px;
 margin-bottom: 5px;
 text-align: center;
@@ -176,16 +174,10 @@ height: 400px;
    background-color: #B2D0B4;
    
   }
-
-  div.col.bg h4 {
-    width: 100%;
-    overflow: hidden;
-    
-  }
   
   div.col.bg h4 {
     animation: 2s slide-right 2s forwards;
-      transform:translateX(-100%);
+    transform:translateX(-100%);
   }
   
   @keyframes slide-right {
@@ -193,4 +185,5 @@ height: 400px;
       transform:translateX(0);
     }
   }
+
 
