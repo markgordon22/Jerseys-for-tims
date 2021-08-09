@@ -7,6 +7,8 @@ height: 100%;
 body{
 height: 100vh;
 font-family: 'Noto Sans TC', sans-serif;
+margin: 0;
+padding: 0;
 }
 
 .index-page {
@@ -213,10 +215,18 @@ height: 400px;
   img.card-img-top{
   height: 350px;
   border-radius: 10px;
-  border: 1px solid black;
+  border: 1px solid #343A40;
   
   }
 
   .card{
   border: none;
 }
+
+.founder-text,
+.founder-title,
+.background-paragraph,
+.background-title{
+color: #343A40;
+}
+
