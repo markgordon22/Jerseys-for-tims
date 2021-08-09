@@ -216,8 +216,15 @@ height: 400px;
   height: 350px;
   border-radius: 10px;
   border: 1px solid #343A40;
-  
+  cursor: pointer;
   }
+
+  img.card-img-top:hover{
+    height: 350px;
+    border-radius: 10px;
+    border: 1px solid #343A40;
+    height: 354px;
+    }
 
   .card{
   border: none;
