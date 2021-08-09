@@ -192,10 +192,6 @@ height: 400px;
     100% {opacity:1;}
   }
 
-  footer{
-   background-color: #B2D0B4;
-   
-  }
   
   div.col.bg h4 {
     animation: 2s slide-right 2s forwards;
@@ -213,3 +209,14 @@ height: 400px;
     background-size: cover;
     height: 130vh;
   }
+
+  img.card-img-top{
+  height: 350px;
+  border-radius: 10px;
+  border: 1px solid black;
+  
+  }
+
+  .card{
+  border: none;
+}
