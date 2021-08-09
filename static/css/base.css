@@ -257,3 +257,15 @@ color: #343A40;
   background-color: #555;
 }
 
+div.dropdown-menu.border-0.show{
+background-color: #343A40;
+color: #ffffff;
+}
+
+a.dropdown-item{
+color: #ffffff;
+}
+
+button.navbar-toggler{
+color: #ffffff;
+}
