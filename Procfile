@@ -1,0 +1,1 @@
+web: gunicorn jerseys-for-tims.wsgi:application
