@@ -270,3 +270,7 @@ color: #ffffff;
 button.navbar-toggler{
 color: #ffffff;
 }
+
+.content-container{
+height: 1000px;
+}
