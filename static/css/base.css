@@ -214,17 +214,16 @@ height: 400px;
   }
 
   img.card-img-top{
-  height: 350px;
+  height: 300px;
   border-radius: 10px;
   border: 1px solid #343A40;
   cursor: pointer;
   }
 
   img.card-img-top:hover{
-    height: 350px;
+    height: 302px;
     border-radius: 10px;
     border: 1px solid #343A40;
-    height: 354px;
     }
 
   .card{
@@ -271,6 +270,18 @@ button.navbar-toggler{
 color: #ffffff;
 }
 
-.content-container{
-height: 1000px;
+
+
+.overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: white;
+	z-index: -1;
+}
+
+img.card-img-top.img-fluid.product-detail-image{
+height: 400px;
 }
