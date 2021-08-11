@@ -5,9 +5,9 @@
                 All Products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="" class="dropdown-item">By Price</a>
-                <a href="" class="dropdown-item ">By Rating</a>
-                <a href="" class="dropdown-item ">By Category</a>
+                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
+                <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
+                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
@@ -17,10 +17,12 @@
                 Jerseys
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">2010-2020</a>
-                <a href="" class="dropdown-item">2000-2010</a>
-                <a href="" class="dropdown-item">1990's</a>
-                <a href="" class="dropdown-item">1980's</a>
+                <a href="{% url 'products' %}?category=2010_2020" class="dropdown-item">2010-2020</a>
+                <a href="{% url 'products' %}?category=2000_2010" class="dropdown-item">2000-2010</a>
+                <a href="{% url 'products' %}?category=1990's" class="dropdown-item">1990's</a>
+                <a href="{% url 'products' %}?category=1980's" class="dropdown-item">1980's</a>
+                <a href="{% url 'products' %}?category=1980's,1990's,2000_2010,2010_2020" class="dropdown-item">All jerseys</a>
+
             </div>
         </li>
 
@@ -29,9 +31,11 @@
                 Home merchandise
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Bed & Bath</a>
-                <a href="" class="dropdown-item">Kitchen and Dining</a>
-                <a href="" class="dropdown-item">Accessories</a>
+                <a href="{% url 'products' %}?category=bed_bath" class="dropdown-item">Bed & Bath</a>
+                <a href="{% url 'products' %}?category=kitchen_dining" class="dropdown-item">Kitchen and Dining</a>
+                <a href="{% url 'products' %}?category=accessories" class="dropdown-item">Accessories</a>
+                <a href="{% url 'products' %}?category=bed_bath,kitchen_dining,accessories" class="dropdown-item">All Home merchandise</a>
+
             </div>
         </li>
 
@@ -51,10 +55,9 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
+                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
+                <a href="{% url 'products' %}?category=new_arrivals,clearance" class="dropdown-item">All Specials</a>
             </div>
         </li>
     </ul>
