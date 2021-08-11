@@ -208,7 +208,7 @@ height: 400px;
   }
 
   .about-page-image{
-    background: url('https://www.squadnumbers.com/wp-content/uploads/2017/06/Celtic-FC.jpeg') no-repeat center center fixed;
+    background: url('/media/aboutpageimg.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 130vh;
   }
