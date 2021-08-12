@@ -236,6 +236,7 @@ height: 400px;
 
   .card{
   border: none;
+
 }
 
 .founder-text,
@@ -315,4 +316,25 @@ border-radius: 2px;
 .bag-empty-text{
 letter-spacing: 1px;
 }
+
+a.view-product-link{
+border: 1px solid #343A40;
+background-color:#343A40;
+color: #ffc107;
+text-align: center;
+border-radius: 10px;
+display: block;
+margin: auto;
+}
+
+a.view-product-link:hover{
+  border: 1px solid #343A40;
+  background-color:#343A40;
+  color: #ffc107;
+  text-align: center;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+  transform:scale(1.02)
+  }
 
