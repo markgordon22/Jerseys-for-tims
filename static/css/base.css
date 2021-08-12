@@ -87,7 +87,8 @@ color: #000000
 
 a.shop-button.btn.btn-lg.rounded-0.center-align:hover{
 background-color: #000000;
-color: #ffffff
+color: #ffffff;
+transform: scale(1.01);
 }
 
 .my-account{
@@ -135,6 +136,13 @@ color: #ffffff
 text-align: left;
 color: #ffffff;
 font-size: 2em;
+}
+
+.logo-font:hover{
+  text-align: left;
+  color: #ffffff;
+  font-size: 2em;
+  transform: scale(1.02);
 }
 
 input.form-control.input-border{
@@ -221,7 +229,7 @@ height: 400px;
   }
 
   img.card-img-top:hover{
-    height: 302px;
+    transform: scale(1.02);
     border-radius: 10px;
     border: 1px solid #343A40;
     }
@@ -285,3 +293,16 @@ color: #ffffff;
 img.card-img-top.img-fluid.product-detail-image{
 height: 400px;
 }
+
+
+a.category-badge > span.badge{
+  background-color: #ffffff !important;
+  color: #343A40 !important;
+  font-size: 17px;
+}
+
+a.category-badge > span.badge:hover{
+background-color: #343A40 !important;
+color: #ffffff !important;
+}
+
