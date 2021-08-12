@@ -306,3 +306,10 @@ background-color: #343A40 !important;
 color: #ffffff !important;
 }
 
+#sort-selector{
+border: 1px solid #343A40;
+color: #343A40;
+border-radius: 2px;
+
+}
+
