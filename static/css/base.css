@@ -343,4 +343,19 @@ color: #343A40;
 font-size: large
 }
 
+input.btn.btn-outline-secondary,
+a.btn.btn-outline-secondary{
+background-color: #343A40;
+color: #ffc107;
+}
+
+input.btn.btn-outline-secondary:hover,
+a.btn.btn-outline-secondary:hover{
+color: #343A40;
+background-color: #ffc107;
+transform:scale(1.02);
+letter-spacing: 1px;
+}
+
+
 
