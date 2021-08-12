@@ -91,46 +91,18 @@ color: #ffffff;
 transform: scale(1.01);
 }
 
-.my-account{
-color: #ffffff;
-}
-
-.my-account-icon{
-color: #ffffff;
-}
-
-.shopping-bag-icon{
-color: #ffffff;
-}
-
-.grand-total{
-color: #ffffff
-}
-
-.mobile-shopping-bag{
-color: #ffffff
-}
-
-.mobile-search{
-color: #ffffff
-}
-
-.mobile-my-account{
-color: #ffffff
-}
-
-.mobile-my-account-icon{
-color: #ffffff
-}
-
-.mobile-search-icon{
-color: #ffffff
-}
-
+.my-account,
+.my-account-icon,
+.shopping-bag-icon,
+.grand-total,
+.mobile-shopping-bag,
+.mobile-search,
+.mobile-my-account,
+.mobile-my-account-icon,
+.mobile-search-icon,
 .mobile-grand-total{
-color: #ffffff
+color: #ffffff;
 }
-
 
 .logo-font{
 text-align: left;
@@ -159,15 +131,11 @@ height: 39px
 
 button.form-control.btn.btn-black.border.rounded-0:hover{
 color: #000000;
-background-color: #B2D0B4
+background-color: #ffc107
 }
 
 .container-text{
 padding-top: 150px;
-}
-
-.carousel-item{
-height: 400px;
 }
 
 .fade-in-text{
@@ -234,6 +202,10 @@ height: 400px;
     border: 1px solid #343A40;
     }
 
+  img.card-img-top.img-fluid.product-detail-img{
+  height: 380px;
+  }
+
   .card{
   border: none;
 
@@ -250,16 +222,15 @@ color: #343A40;
   display: none;
   position: fixed;
   bottom: 20px;
-  right: 30px;
+  right: 20px;
   z-index: 99;
-  font-size: 18px;
-  border: none;
-  outline: none;
+  font-size: 20px;
+  border: 1px solid #000000;
   background-color: #ffc107;
   color: white;
   cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
+  padding: 18px;
+  border-radius: 6px;
 }
 
 #myBtn:hover {
@@ -301,6 +272,7 @@ a.category-badge > span.badge{
   color: #343A40 !important;
   font-size: 17px;
 }
+
 
 a.category-badge > span.badge:hover{
 background-color: #343A40 !important;
