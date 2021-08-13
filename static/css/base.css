@@ -262,8 +262,8 @@ color: #ffffff;
 	z-index: -1;
 }
 
-img.card-img-top.img-fluid.product-detail-image{
-height: 400px;
+img.card-img-top.img-fluid.product-detail-img.mb-5{
+height: 450px;
 }
 
 
@@ -319,6 +319,7 @@ input.btn.btn-outline-secondary,
 a.btn.btn-outline-secondary{
 background-color: #343A40;
 color: #ffc107;
+border-radius: 0px;
 }
 
 input.btn.btn-outline-secondary:hover,
@@ -328,6 +329,30 @@ background-color: #ffc107;
 transform:scale(1.02);
 letter-spacing: 1px;
 }
+
+.container-faq{
+height: 1000px;
+}
+
+button.increment-qty.btn.btn-black.rounded-0{
+border: 1px solid #000000;
+background-color: #343A40;
+color: #ffc107;
+}
+
+button.decrement-qty.btn.btn-black.rounded-0{
+border: 1px solid #000000;
+background-color: #343A40;
+color: #ffc107;
+}
+
+button.decrement-qty.btn.btn-black.rounded-0:hover,
+button.increment-qty.btn.btn-black.rounded-0:hover{
+  border: 1px solid #000000;
+  color: #343A40;
+  background-color: #ffc107;
+  }
+
 
 
 
