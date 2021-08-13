@@ -25,7 +25,6 @@
     {% block corejs %}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/e9c73d7092.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     {% endblock %}
@@ -131,27 +130,27 @@
       <!-- Facebook -->
       <div class="row">
         <div class="col-12">
-      <a class="btn btn-outline-light btn-floating m-1" href="" role="button"
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com" target="_blank" rel="noopener" role="button"
         ><i class="fab fa-facebook-f"></i
       ></a>
 
       <!-- Twitter -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      <a class="btn btn-outline-light btn-floating m-1"href="https://www.twitter.com" target="_blank" rel="noopener" role="button"
         ><i class="fab fa-twitter"></i
       ></a>
 
       <!-- youtube -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com" target="_blank" rel="noopener"role="button"
         ><i class="fab fa-youtube"></i
       ></a>
 
       <!-- Instagram -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com" target="_blank" rel="noopener"role="button"
         ><i class="fab fa-instagram"></i
       ></a>
 
       <!-- Linkedin -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.Linkedin.com" target="_blank" rel="noopener"role="button"
         ><i class="fab fa-linkedin-in"></i
       ></a>
       </div>
@@ -212,20 +211,21 @@
       <div class="row">
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
+          <h4 class="text-uppercase">All Products</h4>
 
           <ul class="list-unstyled mb-0">
             <li>
-              <a href="#!" class="text-white">Link 1</a>
+              <a href="{% url 'products' %}?sort=price&direction=asc" class="text-white">By Price</a>
+
             </li>
             <li>
-              <a href="#!" class="text-white">Link 2</a>
+              <a href="{% url 'products' %}?sort=rating&direction=desc" class="text-white">By Rating</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 3</a>
+              <a href="{% url 'products' %}?sort=category&direction=asc" class="text-white">By Category</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 4</a>
+              <a href="{% url 'products' %}" class="text-white">All Products</a>
             </li>
           </ul>
         </div>
@@ -233,20 +233,25 @@
 
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
+          <h4 class="text-uppercase">Jerseys</h4>
 
           <ul class="list-unstyled mb-0">
             <li>
-              <a href="#!" class="text-white">Link 1</a>
+              <a href="{% url 'products' %}?category=2010_2020" class="text-white">2010-2020</a>
+
             </li>
             <li>
-              <a href="#!" class="text-white">Link 2</a>
+              <a href="{% url 'products' %}?category=2000_2010" class="text-white">2000-2010</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 3</a>
+              <a href="{% url 'products' %}?category=1990's" class="text-white">1990's</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 4</a>
+              <a href="{% url 'products' %}?category=1980's" class="text-white">1980's</a>
+            </li>
+            <li>
+              <a href="{% url 'products' %}?category=1980's,1990's,2000_2010,2010_2020" class="text-white">All jerseys</a>
+
             </li>
           </ul>
         </div>
@@ -254,20 +259,20 @@
 
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
+          <h4 class="text-uppercase">Company</h4>
 
           <ul class="list-unstyled mb-0">
             <li>
-              <a href="#!" class="text-white">Link 1</a>
+              <a href="#!" class="text-white">Log in</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 2</a>
+              <a href="#!" class="text-white">Register</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 3</a>
+              <a href="#!" class="text-white">Contact us</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 4</a>
+              <a href="#!" class="text-white">About us</a>
             </li>
           </ul>
         </div>
@@ -275,21 +280,19 @@
 
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
+          <h4 class="text-uppercase">Special Offers</h4>
 
           <ul class="list-unstyled mb-0">
             <li>
-              <a href="#!" class="text-white">Link 1</a>
+              <a href="{% url 'products' %}?category=new_arrivals" class="text-white">New Arrivals</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 2</a>
+              <a href="{% url 'products' %}?category=clearance" class="text-white">Clearance</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 3</a>
+              <a href="{% url 'products' %}?category=new_arrivals,clearance" class="text-white">New Arrivals</a>
             </li>
-            <li>
-              <a href="#!" class="text-white">Link 4</a>
-            </li>
+            
           </ul>
         </div>
         <!--Grid column-->
