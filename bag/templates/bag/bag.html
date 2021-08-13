@@ -21,6 +21,10 @@
     <div class="container mb-3">
         <div class="row">
             {% if bag_items %}
+                {{ bag_items }}
+                <br>
+                <br>
+                {{ request.session.bag }}
             <div class="table-responsive rounded">
                 <table class="table table-sm table-borderless">
                     <thead class="text-black">
