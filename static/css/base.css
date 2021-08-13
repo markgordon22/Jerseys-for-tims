@@ -353,6 +353,16 @@ button.increment-qty.btn.btn-black.rounded-0:hover{
   background-color: #ffc107;
   }
 
+a.update-link.text-info.update-qty-btn.text-white,
+a.remove-item.text-danger.remove-qty-btn.text-white.float-right{
+cursor: pointer;
+font-size: 20px;
+}
+
+
+
+
+
 
 
 
