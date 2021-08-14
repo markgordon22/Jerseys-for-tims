@@ -58,7 +58,7 @@
                                 <a href="{% url 'product_detail' product.id %}">
                                     <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
                                 </a>
-                                <a href="{% url 'product_detail' product.id %}" class="btn btn-outline-secondary mt-3 p-2">Quick view</a>
+                                <a href="{% url 'product_detail' product.id %}" class="btn btn-outline-secondary rounded-0 quick-view mt-3 p-2">Quick view</a>
                                 {% else %}
                                 <a href="{% url 'product_detail' product.id %}">
                                     <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
@@ -114,7 +114,7 @@
         </div>
     </div>
 
-    <button onclick="topFunction()" id="myBtn"><i class="fas fa-arrow-up"></i></button>
+<button onclick="topFunction()" id="myBtn"><i class="fas fa-arrow-up"></i></button>
 {% endblock %}
 
 {% block postloadjs %}
