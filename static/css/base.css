@@ -469,6 +469,19 @@ margin: auto;
 text-align: center;
 }
 
+a.btn.btn-outline-secondary.rounded-0.toast-btn.mt-3.p-2.btn-block{
+  border: 1px solid #000000;
+  color: #343A40;
+  background-color: #ffc107;
+}
+
+a.btn.btn-outline-secondary.rounded-0.toast-btn.mt-3.p-2.btn-block:hover{
+  border: 1px solid #000000;
+  background-color: #343A40;
+  color: #ffc107;
+}
+
+
 
 
 
