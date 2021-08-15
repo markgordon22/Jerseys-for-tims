@@ -18,15 +18,15 @@
     <div class="row">
         <div class="col">
             
-            <h4 class="mt-4">Thank You</h4>
+            <h4 class="mt-4 text-center">Thank You</h4>
             
-            <p class="text-black">Your order information is below. A confirmation email will be sent to <strong>{{ order.email }}</strong>.</p>
+            <p class="text-black text-center">Your order information is below. A confirmation email will be sent to <strong>{{ order.email }}</strong>.</p>
         </div>
     </div>
            
 <div class="container">
                 <div class="row">
-                    <div class="col-12 col-lg-7">
+                    <div class="col-12">
                         <div class="order-confirmation-wrapper p-2 border">
                             <div class="row">
                                 <div class="col">
@@ -192,8 +192,8 @@
                 </div>
         </div>
         <div class="row">
-			<div class="col-12 col-lg-7 text-right">
-				<a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="btn btn-outline-secondary mt-3 rounded-0 mb-4">
+			<div class="col-12">
+				<a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="btn btn-outline-secondary mt-3 rounded-0 mb-4 float-left">
 					<span class="icon mr-2">
 						<i class="fas fa-gifts"></i>
 					</span>
