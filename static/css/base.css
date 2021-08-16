@@ -493,13 +493,8 @@ color: #ffff;
   background-size: cover;
   height: 100vh;
 }
-
 label.requiredField{
-color: white;
-text-align: center;
-font-size: 15px;
-font-weight: 500;
-letter-spacing: 1px
+color: #ffffff;
 }
 
 /* Allauth form formatting */
@@ -583,6 +578,12 @@ color: #ffffff;
 a.btn.btn-light.rounded-0.back-to-login{
 background-color: #f8f9fa;
 color: #343A40;
+}
+
+.add-product-heading{
+text-align: center;
+color: #343A40;
+margin-bottom: 5px;
 }
 
 
