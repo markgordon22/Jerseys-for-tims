@@ -1,0 +1,1412 @@
+[
+    {
+       "model":"products.product",
+       "pk":1,
+       "fields":{
+          "category":1,
+          "sku":"pp50049101500",
+          "name":"HOME 1980/81",
+          "description":"A classic hoops shirt to be worn to watch all the hoops conquer.",
+          "has_sizes":true,
+          "price":"19.99",
+          "rating":"3.50",
+          "image_url":"https://cdn.shopify.com/s/files/1/0460/9333/6730/products/8_6f1d9561-c6c3-41fb-94e5-1c48c6b18c2d_1200x.png?v=1599892506",
+          "image":"1980_RIdV4x6.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":2,
+       "fields":{
+          "category":1,
+          "sku":"pp50049101501",
+          "name":"Away 1980/81",
+          "description":"Stylish, comfortable and forever an iconic shirt",
+          "has_sizes":true,
+          "price":"19.99",
+          "rating":"3.00",
+          "image_url":"https://us03-imgcdn.ymcart.com/50018/2021/04/19/7/5/751c5b3f80d2eb7a.jpg?x-oss-process=image/quality,Q_90/auto-orient,1/resize,m_lfit,w_1000,h_1000",
+          "image":"1980away_culD9QR.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":3,
+       "fields":{
+          "category":1,
+          "sku":"pp50049101502",
+          "name":"Home 1981/82",
+          "description":"The shirt that the great Billy Mcneil wore to lift the scottish cup!",
+          "has_sizes":true,
+          "price":"21.99",
+          "rating":"4.00",
+          "image_url":"https://www.picclickimg.com/d/l400/pict/234036728682_/Retro-Replica-Celtic-Shirt-XL-Extra-Large-1978.jpg",
+          "image":"1981celticjersey.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":5,
+       "fields":{
+          "category":1,
+          "sku":"pp50049101504",
+          "name":"Away 1981/82",
+          "description":"A beautiful strip, with a clean white and green pin-stripe design.\r\nGiven to Jerseys for Tims kindly by Fotball shirt 1000!",
+          "has_sizes":true,
+          "price":"33.99",
+          "rating":"4.15",
+          "image_url":"https://www.oldfootballshirts.com/img/shirts/163/celtic-away-football-shirt-1982-1983-s_41927_1.jpg",
+          "image":"1981away_Gtv3S7a.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":6,
+       "fields":{
+          "category":1,
+          "sku":"pp50049101505",
+          "name":"Home 1982/83",
+          "description":"A lovely shade of green with white pin stripes and white coloured sleeve tips and collar neck.",
+          "has_sizes":true,
+          "price":"39.99",
+          "rating":"4.40",
+          "image_url":"https://cdn.shopify.com/s/files/1/0460/9333/6730/products/173693692_1700301587024260_1369269247689381865_n_1000x.jpg?v=1619006287",
+          "image":"1982jersey_ZepKVMk.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":7,
+       "fields":{
+          "category":1,
+          "sku":"pp50049101506",
+          "name":"Away 1982/83",
+          "description":"Retro, comfort, style, authenticity, the ultimate celtic throwback shirt.",
+          "has_sizes":true,
+          "price":"39.99",
+          "rating":"5.00",
+          "image_url":"https://www.oldfootballshirts.com/img/shirts/163/celtic-away-football-shirt-1982-1983-s_41927_1.jpg",
+          "image":"1982away_EO5O4gu.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":8,
+       "fields":{
+          "category":1,
+          "sku":"pp50049101507",
+          "name":"Home 1983/1984",
+          "description":"A beautiful silky smooth color. Stylish and iconic. You won't look out of place.",
+          "has_sizes":true,
+          "price":"24.99",
+          "rating":"3.10",
+          "image_url":"https://www.footballkitarchive.com/images/2020/06/27/qemJalJLoSxwtOl/celtic-1983-84-home.jpg",
+          "image":"1983_m4rTVgS.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":12,
+       "fields":{
+          "category":1,
+          "sku":"pp50049101508",
+          "name":"Away 1983/84",
+          "description":"Two words.. A classic",
+          "has_sizes":true,
+          "price":"33.99",
+          "rating":"4.25",
+          "image_url":"https://www.oldfootballshirts.com/img/shirts/163/celtic-third-football-shirt-1982-1983-s_18204_1.jpg",
+          "image":"1983away_11YTlQY.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":13,
+       "fields":{
+          "category":1,
+          "sku":"pp50049101509",
+          "name":"Home 1984/85",
+          "description":"A silky green with a contrast neck design. Wear with Jeans or a tracksuit. Very good condition with a long sleeve design.",
+          "has_sizes":true,
+          "price":"27.99",
+          "rating":"5.00",
+          "image_url":"https://celticfcmatchworn.files.wordpress.com/2021/01/827ad809-1c15-4188-8bad-2bd1bb609aec-1.jpeg?w=1024",
+          "image":"1984_qY6V48J.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":14,
+       "fields":{
+          "category":1,
+          "sku":"pp50049101510",
+          "name":"Away 1984/85",
+          "description":"Umbro design with green pinstripes. A classic worn by the great Kenny Dalglish, Celtic's all time top scorer",
+          "has_sizes":true,
+          "price":"41.99",
+          "rating":"3.60",
+          "image_url":"https://us02-imgcdn.ymcart.com/31229/2020/11/14/5/e/5e50b3611990b670.jpg?x-oss-process=image/quality,Q_80/resize,m_lfit,w_1000,h_1000/interlace,0",
+          "image":"1984away_AKp9bVS.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":15,
+       "fields":{
+          "category":1,
+          "sku":"pp50049101511",
+          "name":"Home 1985/86",
+          "description":"Green and white Hoop design with a CR SMITH sponsor. One for the more baggy fit lovers",
+          "has_sizes":true,
+          "price":"16.99",
+          "rating":"3.00",
+          "image_url":"https://tbjerseys.com/wp-content/uploads/2020/12/1-ShirtFront-CelticGlasgow1985-1987HomeShort-Sleeve.jpg",
+          "image":"1985_qyUzUXu.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":16,
+       "fields":{
+          "category":1,
+          "sku":"pp50049101512",
+          "name":"Away 1985/86",
+          "description":"Patterns of black, white and green along with the crsmith sponsor",
+          "has_sizes":true,
+          "price":"33.99",
+          "rating":"2.90",
+          "image_url":"https://d2h1pu99sxkfvn.cloudfront.net/b0/4805345/515724906_8nix70UeAK/P0.jpg",
+          "image":"1985away_yv4z3lk.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":17,
+       "fields":{
+          "category":1,
+          "sku":"pp50049101514",
+          "name":"Home 1986/87",
+          "description":"A spontaneous design of yellow, black and green. One of the more maverick design Celtic fc have produced.",
+          "has_sizes":true,
+          "price":"11.99",
+          "rating":"2.00",
+          "image_url":"https://www.oldfootballshirts.com/img/shirts/163/celtic-away-football-shirt-1986-1987-s_54168_1.jpg",
+          "image":"1986_7DLK3By.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":18,
+       "fields":{
+          "category":1,
+          "sku":"pp50049101515",
+          "name":"Away 1986/87",
+          "description":"A cool design of diamonds down the centre of the shirt with a distinct green collar. Signed by the Celtic squad of that season.",
+          "has_sizes":true,
+          "price":"33.99",
+          "rating":"3.00",
+          "image_url":"https://www.oldfootballshirts.com/img/shirts/163/celtic-away-football-shirt-1986-1988-s_27070_1.jpg",
+          "image":"1986away_PRcWWBa.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":19,
+       "fields":{
+          "category":1,
+          "sku":"pp50049101516",
+          "name":"Home 1987/88",
+          "description":"A nice oversized fit with a cool button. Excellent condition and one of the best shirts Celtic have produced.",
+          "has_sizes":true,
+          "price":"49.99",
+          "rating":"5.00",
+          "image_url":"https://www.oldfootballshirts.com/img/shirts/163/extra_football_shirt_36992_1.jpg",
+          "image":"1987_dXiqjSC.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":20,
+       "fields":{
+          "category":1,
+          "sku":"pp50049101517",
+          "name":"Home 1988/89",
+          "description":"Similar to the 87 shirt the 88 shirt withdrew the umbro sponsor for fans less concerned about sports brands on their Celtic shirts",
+          "has_sizes":true,
+          "price":"44.99",
+          "rating":"4.00",
+          "image_url":"https://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/YrgAAOSwcUhdXu9g/$_86.JPG",
+          "image":"1988_C9xR9QN.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":21,
+       "fields":{
+          "category":1,
+          "sku":"pp50049101518",
+          "name":"Away 1988/89",
+          "description":"A powerful yellow contrasted superbly with a green sleeve tip and collar. A belter of a shirt",
+          "has_sizes":true,
+          "price":"4.20",
+          "rating":"3.30",
+          "image_url":"https://www.3retro.com/siteimg/extrapics/2371.jpg",
+          "image":"1988away_A30EjC1.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":22,
+       "fields":{
+          "category":1,
+          "sku":"pp50049101519",
+          "name":"Home 1989/90",
+          "description":"A great season for the hoops was played out in this beauty of a strip. A beautiful shade of green and white along with a sophisticated collar design.",
+          "has_sizes":true,
+          "price":"37.99",
+          "rating":"4.70",
+          "image_url":"https://www.oldfootballshirts.com/img/shirts/163/celtic-home-football-shirt-1989-1991-s_1669_1.jpg",
+          "image":"1989_I8Pb6jx.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":23,
+       "fields":{
+          "category":1,
+          "sku":"pp50049101520",
+          "name":"Away 1989/90",
+          "description":"This strip screams personality. A strip that didn't bring success to Celtic but still never looked out of place this beauty.",
+          "has_sizes":true,
+          "price":"49.99",
+          "rating":"3.50",
+          "image_url":"https://www.oldfootballshirts.com/img/shirts/163/extra_football_shirt_40031_2.jpg",
+          "image":"1989away_LUNCSn3.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":24,
+       "fields":{
+          "category":2,
+          "sku":"pp50049101521",
+          "name":"Home 1990/91",
+          "description":"A shirt that the famous Paul Lambert wore to lift a celtic double that season. One that will be worn for decades to come",
+          "has_sizes":true,
+          "price":"19.99",
+          "rating":"3.00",
+          "image_url":"https://www.oldfootballshirts.com/img/shirts/163/extra_football_shirt_28400_1.jpg",
+          "image":"1990_UWeiwVW.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":25,
+       "fields":{
+          "category":2,
+          "sku":"pp50049101522",
+          "name":"Home 1992/93",
+          "description":"A cool and edgy design with a flashy red designed sponsor. An easily recogniseable home shirt among the hoops fans",
+          "has_sizes":true,
+          "price":"24.99",
+          "rating":"4.00",
+          "image_url":"https://www.oldfootballshirts.com/img/shirts/163/celtic-away-football-shirt-1991-1992-s_1996_1.jpg",
+          "image":"1992_JxkGWKI.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":26,
+       "fields":{
+          "category":2,
+          "sku":"pp50049101523",
+          "name":"Away 1992/93",
+          "description":"A shirt that is making a comeback among the youthful Celtic faithful. This shirt was worn by the famous Italian Paolo Di Canio",
+          "has_sizes":true,
+          "price":"21.99",
+          "rating":"3.00",
+          "image_url":"https://cdna3.zoeysite.com/Adzpo594RQGDpLcjBynL1z/cache=expiry:31536000//auto_image/compress/https://s3.amazonaws.com/zcom-media/sites/a0iE000000OXXRAIA5/media/catalog/product/d/s/dscf1467.jpg",
+          "image":"1992away_Wh3DMEr.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":27,
+       "fields":{
+          "category":2,
+          "sku":"pp50049101525",
+          "name":"Home 1993/94",
+          "description":"Nice, clean and elegant design and pattern,  but still with the bold touch.",
+          "has_sizes":true,
+          "price":"33.99",
+          "rating":"2.95",
+          "image_url":"https://cdna3.zoeysite.com/Adzpo594RQGDpLcjBynL1z/cache=expiry:31536000//auto_image/compress/https://s3.amazonaws.com/zcom-media/sites/a0iE000000OXXRAIA5/media/catalog/product/d/s/dscf3780.jpg",
+          "image":"1993_ykFK1Rq.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":28,
+       "fields":{
+          "category":2,
+          "sku":"pp50049101527",
+          "name":"Away 1993/94",
+          "description":"A bold shirt, with an edgy feel to it. Celtic brought together it's GAA relations and ancestry into the shirt relating to the huge Irish fan base that the club holds.",
+          "has_sizes":true,
+          "price":"18.99",
+          "rating":"2.40",
+          "image_url":"https://cdn11.bigcommerce.com/s-sffh8iw3z0/images/stencil/1280x1280/products/428/930/Screenshot_20210416064847__98125.1618678462.jpg?c=1",
+          "image":"1994away_74EciSu.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":29,
+       "fields":{
+          "category":2,
+          "sku":"pp50049101530",
+          "name":"Home 1995/96",
+          "description":"This shirt voted the best one of the 90's decade among celtic supporters club in Glasgow and Dublin. This shirt brings together its football history and celtic heritage. A true beauty.",
+          "has_sizes":true,
+          "price":"20.99",
+          "rating":"3.75",
+          "image_url":"https://www.oldfootballshirts.com/img/shirts/163/celtic-home-football-shirt-1995-1997-s_1634_1.jpg",
+          "image":"1995_sDaovRS.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":30,
+       "fields":{
+          "category":2,
+          "sku":"pp50049101533",
+          "name":"Away 1995/96",
+          "description":"A shirt that gets nostalgia among celtic fans in the 90's. A poor season from the team with no silverware did not stop the celtic team looking sharp.",
+          "has_sizes":true,
+          "price":"59.99",
+          "rating":"4.00",
+          "image_url":"https://www.thescottishsun.co.uk/wp-content/uploads/sites/2/2019/11/NINTCHDBPICT000001060654.jpg",
+          "image":"1995away_gLgEOxR.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":31,
+       "fields":{
+          "category":2,
+          "sku":"pp50049101537",
+          "name":"Home 1996/97",
+          "description":"A shirt worn by the celtic squad managed by the great Martin O' Neil along with his players such as Chris Sutton and Packie Bonner",
+          "has_sizes":true,
+          "price":"36.99",
+          "rating":"3.80",
+          "image_url":"https://image1.fanobject.com/celtic-229424b.jpg",
+          "image":"1996_M7qMlMM.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":32,
+       "fields":{
+          "category":2,
+          "sku":"pp50049101540",
+          "name":"Away 1996/97",
+          "description":"A shirt that introduced a new brave shade of the color green. This proved to be a hit with the Celtic faithful voting it the best away shirt in the 90's era.",
+          "has_sizes":true,
+          "price":"46.99",
+          "rating":"4.05",
+          "image_url":"https://dnre29p915wg3.cloudfront.net/media/catalog/product/c/e/celtic-96-away-new.jpg",
+          "image":"1996away_63ezGrA.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":33,
+       "fields":{
+          "category":2,
+          "sku":"pp50049101541",
+          "name":"Away 1997/98",
+          "description":"A cool, youthful, inspired look to this shirt led the Celtic to lift a league and cup double. Another iconic shirt",
+          "has_sizes":true,
+          "price":"50.99",
+          "rating":"5.00",
+          "image_url":"https://pictures.depop.com/b0/11816806/483891840_6Ll8rdhiWV/P0.jpg",
+          "image":"1997away_56RlVHf.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":34,
+       "fields":{
+          "category":2,
+          "sku":"pp50049101545",
+          "name":"Home 1999/2000",
+          "description":"A bold and powerful design with a larger than normal shirt sponsor caused mixed emotions and opinions among the celtic faithful, however, this shirt will always be remembered as the one that Henrick Larsson scored 30 goals in a league campaign.",
+          "has_sizes":true,
+          "price":"13.99",
+          "rating":"4.00",
+          "image_url":"https://pictures.depop.com/b0/3648739/430371048_pAFcsM9YiG/P0.jpg",
+          "image":"1999_MqMu6rc.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":35,
+       "fields":{
+          "category":2,
+          "sku":"pp50049101548",
+          "name":"Away 1999/00",
+          "description":"A great shirt to be worn in remembrance to Celtic that won the league title by 13 points.",
+          "has_sizes":true,
+          "price":"12.99",
+          "rating":"3.00",
+          "image_url":"https://pictures.depop.com/b0/10146145/435420015_WqPB5yD34i/P0.jpg",
+          "image":"1999away_Pqdrbq1.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":36,
+       "fields":{
+          "category":3,
+          "sku":"pp50049101559",
+          "name":"Home 2000/01",
+          "description":"A shirt bringing back the days of the famous front 3 of Larsson, Sutton and Hartson. A timeless sensation of a celtic strip. It was also the first year NTL was brought in to sponsor the boys in green and white.",
+          "has_sizes":true,
+          "price":"18.99",
+          "rating":"4.50",
+          "image_url":"https://us03-imgcdn.ymcart.com/50018/2020/11/12/7/8/782da86f87cddd5c.jpg?x-oss-process=image/quality,Q_90/auto-orient,1/resize,m_lfit,w_1000,h_1000",
+          "image":"2000_rqRx49s.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":37,
+       "fields":{
+          "category":3,
+          "sku":"pp50049101560",
+          "name":"Away 2000/01",
+          "description":"A beauty of a shirt that celtic won a league and cup double. A retro feel with a modern twist. Recognisable among all celtic fans and supporters",
+          "has_sizes":true,
+          "price":"30.00",
+          "rating":"4.00",
+          "image_url":"https://pictures.depop.com/b0/12301436/485544266_MpAWoXC3Sc/P0.jpg",
+          "image":"2000away_wYNKwPA.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":38,
+       "fields":{
+          "category":3,
+          "sku":"pp50049101569",
+          "name":"Home 2001-2003",
+          "description":"A famous shirt that the hoops wore in the uefa cup final of 2003 to be narrowly defeated by a fabulous Porto side managed by a man referred to as the \"special one\" - a certain Jose Mourinho..",
+          "has_sizes":true,
+          "price":"16.99",
+          "rating":"4.00",
+          "image_url":"https://www.oldfootballshirts.com/img/shirts/163/extra_football_shirt_37772_1.jpg",
+          "image":"2001-2003_X4MZfry.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":39,
+       "fields":{
+          "category":3,
+          "sku":"pp50049101570",
+          "name":"Away 2001/02",
+          "description":"A classic shirt that started the dominace of the 2000's.",
+          "has_sizes":true,
+          "price":"39.99",
+          "rating":"4.80",
+          "image_url":"https://pictures.depop.com/b0/10146145/418584050_hvXo9exVUz/P0.jpg",
+          "image":"2001away_XfqdYo1.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":40,
+       "fields":{
+          "category":3,
+          "sku":"pp50049101601",
+          "name":"Away 2003/04",
+          "description":"A shirt that provides many happy memories. The shirt that Neil Lennon wore to score a famous goal at Juventus in the champions league round of 16. A nice fish-tail twist and a stunning yellow color.",
+          "has_sizes":true,
+          "price":"39.99",
+          "rating":"3.95",
+          "image_url":"https://pictures.depop.com/b0/10146145/447964514_Z5Vor2vBQi/P0.jpg",
+          "image":"2002away.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":41,
+       "fields":{
+          "category":3,
+          "sku":"pp50049101602",
+          "name":"Home 2003/04",
+          "description":"The first year of the carling sponsored era. This shirt proves nostalgic for all Irish supporters as one of their own Aiden McGeady wore this shirt on his home debut.",
+          "has_sizes":true,
+          "price":"49.99",
+          "rating":"5.00",
+          "image_url":"https://www.oldfootballshirts.com/img/shirts/163/celtic-home-football-shirt-2003-2004-s_249_1.jpg",
+          "image":"2003_l2v1ANg.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":42,
+       "fields":{
+          "category":3,
+          "sku":"pp50049101603",
+          "name":"Away 2003/04",
+          "description":"An introduction to a black design of away kits for celtic. A beauty that's remembered for Shinji Nakamura scoring many a free-kick in.",
+          "has_sizes":true,
+          "price":"10.99",
+          "rating":"2.50",
+          "image_url":"https://pictures.depop.com/b0/10146145/434892434_Jy1SnwlaUR/P0.jpg",
+          "image":"2003away_XRuh6Sm.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":43,
+       "fields":{
+          "category":3,
+          "sku":"pp50049101604",
+          "name":"Home 2004/05",
+          "description":"A shirt with a rugby feel to it. Not a year to remember for the hoops in this shirt. Carling sponsored with a clean design.",
+          "has_sizes":true,
+          "price":"23.99",
+          "rating":"2.70",
+          "image_url":"https://www.oldfootballshirts.com/img/shirts/163/celtic-home-football-shirt-2004-2005-s_3702_1.jpg",
+          "image":"2004_vrr1RSG.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":44,
+       "fields":{
+          "category":3,
+          "sku":"pp50049101605",
+          "name":"Away 2005/06",
+          "description":"A beautiful shade of dark turquoise. This shirt proved a hit with the celtic faithful as it was sold out in stores and on the celtic fc website in a matter of days. A lovely strip",
+          "has_sizes":true,
+          "price":"18.99",
+          "rating":"2.70",
+          "image_url":"https://pictures.depop.com/b0/10146145/447953405_7rBDszdZRT/P0.jpg",
+          "image":"2004away_w5UUKOr.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":45,
+       "fields":{
+          "category":3,
+          "sku":"pp50049101605",
+          "name":"Home 2005/06",
+          "description":"The shirt that gives a baggy feel to it. A shirt that Hartson had his best ever goal scoring season in.",
+          "has_sizes":true,
+          "price":"19.99",
+          "rating":"1.00",
+          "image_url":"https://pictures.depop.com/b0/10146145/413170014_7rh2C0RiOM/P0.jpg",
+          "image":"2005_VPM3POp.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":46,
+       "fields":{
+          "category":3,
+          "sku":"pp50049101610",
+          "name":"Away 2005/06 (2)",
+          "description":"The year celtic provided two away strips. Nike certainly delivered with this one with a gold nike badge and star above the crest reflecting celtic's past historics in lifting the european cup of 1967.",
+          "has_sizes":true,
+          "price":"29.99",
+          "rating":"2.00",
+          "image_url":"https://pictures.depop.com/b0/10146145/427576372_ycHaGtIA0q/P0.jpg",
+          "image":"2005away_oTRNPJw.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":47,
+       "fields":{
+          "category":3,
+          "sku":"pp50049101620",
+          "name":"Home 2006/07",
+          "description":"The favourite shirt by carling in the eyes of celtic supporters. The shirt that provided ultimate comfort for whatever the occassion.",
+          "has_sizes":true,
+          "price":"44.99",
+          "rating":"4.05",
+          "image_url":"https://cdna1.zoeysite.com/Adzpo594RQGDpLcjBynL1z/cache=expiry:31536000//auto_image/compress/https://s3.amazonaws.com/zcom-media/sites/a0iE000000OXXRAIA5/media/catalog/product/d/s/dscf1623_1.jpg",
+          "image":"2006_7FOEN1w.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":48,
+       "fields":{
+          "category":3,
+          "sku":"pp50049101640",
+          "name":"Away 2006/07",
+          "description":"A shirt that did not provide much success to celtic. It did give us the famous Scott McDonald hatrick at Motherwell on the last day of the season. An underrated shirt in the eyes of many celtic supporters.",
+          "has_sizes":true,
+          "price":"33.99",
+          "rating":"3.00",
+          "image_url":"https://anothersackedmanager.files.wordpress.com/2015/09/img_6068.jpg",
+          "image":"2006away_8lfbh5j.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":49,
+       "fields":{
+          "category":3,
+          "sku":"pp50049101700",
+          "name":"Home 2007/08",
+          "description":"A lovely shirt that provides similarity among the previous shirts carling had produced. However the distinct gold crest design makes it a distinctive classic.",
+          "has_sizes":true,
+          "price":"27.99",
+          "rating":"5.00",
+          "image_url":"https://premierretros.co.uk/wp-content/uploads/2021/03/165618300_2792739787704379_5826048312426147413_n.jpg",
+          "image":"2007_B0BKB72.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":50,
+       "fields":{
+          "category":3,
+          "sku":"pp50049101701",
+          "name":"Away 2007/08",
+          "description":"A classic dark green colour. It screams history and heritage back to the away jerseys of the early 90's.",
+          "has_sizes":true,
+          "price":"40.99",
+          "rating":"33.99",
+          "image_url":"https://cdn.shopify.com/s/files/1/2174/7149/products/celt_1024x1024@2x.jpg?v=1612193852",
+          "image":"2007away_vzz4MqX.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":51,
+       "fields":{
+          "category":3,
+          "sku":"pp50049101703",
+          "name":"Home 2008/09",
+          "description":"A shirt that produced the first v-neck design. A beautiful shirt that Aiden McGeady wore to score the winning the penalty against Rangers that very season",
+          "has_sizes":true,
+          "price":"31.99",
+          "rating":"3.00",
+          "image_url":"https://pictures.depop.com/b0/10146145/442186607_vwGZbSj6o3/P0.jpg",
+          "image":"2008_I23It19.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":52,
+       "fields":{
+          "category":3,
+          "sku":"pp50049101720",
+          "name":"Away 2008/09",
+          "description":"A shirt that could be mistaken for Brazil..well a celtic certainly did not look out of place winning a consecutive league title that season.",
+          "has_sizes":true,
+          "price":"24.99",
+          "rating":"3.70",
+          "image_url":"https://d2h1pu99sxkfvn.cloudfront.net/b0/10877058/507629757_yTYkHeUSDj/P0.jpg",
+          "image":"2008away_TVTiWZs.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":53,
+       "fields":{
+          "category":3,
+          "sku":"pp50049101721",
+          "name":"Home 2009/10",
+          "description":"Nike delivered and we supply it. One of the all time classic shirts.",
+          "has_sizes":true,
+          "price":"49.99",
+          "rating":"4.10",
+          "image_url":"https://pictures.depop.com/b0/9270068/404044311_JB1y9GA7uk/P0.jpg",
+          "image":"2009_EoGLWWB.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":54,
+       "fields":{
+          "category":3,
+          "sku":"pp50049101730",
+          "name":"Away 2009/10",
+          "description":"A maverick twist with a bright glossy green and black color making it a very familiar strip. This shirt was worn in the champions league round of 16 before eventually losing to eventual winners Barcelona.",
+          "has_sizes":true,
+          "price":"37.99",
+          "rating":"3.30",
+          "image_url":"https://cdna4.zoeysite.com/Adzpo594RQGDpLcjBynL1z/cache=expiry:31536000//auto_image/compress/https://s3.amazonaws.com/zcom-media/sites/a0iE000000OXXRAIA5/media/catalog/product/d/s/dscf7919.jpg",
+          "image":"2009away_ybT1cY0.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":55,
+       "fields":{
+          "category":4,
+          "sku":"pp50049101760",
+          "name":"Home 2010/11",
+          "description":"Out with carling and in came tennets sponsor. A crispy, beautiful look and feel. A certain James Forrest debuted in this shirt to start his illustrious career with celtic.",
+          "has_sizes":true,
+          "price":"42.99",
+          "rating":"4.90",
+          "image_url":"https://www.footballkitarchive.com/images/2020/06/28/Ucnot1eNihH0dbG/celtic-2010-11-home.jpg",
+          "image":"2010_91fccaI.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":56,
+       "fields":{
+          "category":4,
+          "sku":"pp50049101770",
+          "name":"Away 2010/11",
+          "description":"A shirt that proved a hit with the celtic fans. A shirt that made headlines when it was voted shirt of the decade by Scottish football pundits.",
+          "has_sizes":true,
+          "price":"40.99",
+          "rating":"3.90",
+          "image_url":"https://www.oldfootballshirts.com/img/shirts/163/celtic-away-football-shirt-2010-2011-s_23418_1.jpg",
+          "image":"2010away_g1xnfRm.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":57,
+       "fields":{
+          "category":4,
+          "sku":"pp50049101777",
+          "name":"Home 2011/12",
+          "description":"Nike produced a revelation in how to produce jerseys by introducing the dri-fit material to provide maximum cool like feeling to the shirt.",
+          "has_sizes":true,
+          "price":"33.99",
+          "rating":"2.00",
+          "image_url":"https://www.footballkitarchive.com/images/2020/06/28/dpipF1rTPrT9jxx/celtic-2011-12-home.jpg",
+          "image":"2011_kcBU8SD.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":58,
+       "fields":{
+          "category":4,
+          "sku":"pp50049101800",
+          "name":"Away 2011/12",
+          "description":"A classic shirt that Anthony Stokes wore to seal a league and cup double at hampden park versus Hibernian.",
+          "has_sizes":true,
+          "price":"19.99",
+          "rating":"2.20",
+          "image_url":"https://pictures.depop.com/b0/10146145/422481410_sQumFIRMqe/P0.jpg",
+          "image":"2011away_lfB6QVB.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":59,
+       "fields":{
+          "category":4,
+          "sku":"pp50049101860",
+          "name":"Away 2012/13",
+          "description":"A shirt that gave many celtic fans memories of a life-time as celtic sealed qualification for the knockout-stages of the champions league in a group containing the likes of Barcelona.",
+          "has_sizes":true,
+          "price":"27.99",
+          "rating":"3.20",
+          "image_url":"https://www.footballkitarchive.com/images/2020/06/28/BkSMGJJNHR02arg/celtic-2012-13-away.jpg",
+          "image":"2012away.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":60,
+       "fields":{
+          "category":4,
+          "sku":"pp50049101877",
+          "name":"Home 2013/14",
+          "description":"A fabulous design and array of colors. This shirt was worn with pride by Robbie Keane during his loan spell from premier league side Tottenham.",
+          "has_sizes":true,
+          "price":"12.99",
+          "rating":"4.00",
+          "image_url":"https://www.oldfootballshirts.com/img/shirts/163/extra_football_shirt_39852_1.jpg",
+          "image":"2013_XaQlkhb.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":61,
+       "fields":{
+          "category":4,
+          "sku":"pp50049101901",
+          "name":"Away 2014/15",
+          "description":"A shirt that has a lot of personality. Yellow and green cross like design cemented itself as one of the all time classics.",
+          "has_sizes":true,
+          "price":"13.99",
+          "rating":"5.00",
+          "image_url":"https://cdna2.zoeysite.com/Adzpo594RQGDpLcjBynL1z/cache=expiry:31536000//auto_image/compress/https://s3.amazonaws.com/zcom-media/sites/a0iE000000OXXRAIA5/media/catalog/product/d/s/dscf1975.jpg",
+          "image":"2014away.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":62,
+       "fields":{
+          "category":4,
+          "sku":"pp50049101900",
+          "name":"Home 2014/15",
+          "description":"Magners delivered a lovely fade of green and white. It was also another league and cup double secured by celtic that very season.",
+          "has_sizes":true,
+          "price":"48.99",
+          "rating":"5.00",
+          "image_url":"https://www.footballkitarchive.com/images/2020/06/27/12W1sw4vRKl4OjB/celtic-2014-15-home.jpg",
+          "image":"2014_FRsJmI9.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":63,
+       "fields":{
+          "category":4,
+          "sku":"pp50049101902",
+          "name":"Home 2015/16",
+          "description":"One word.. stunning. Similar to the previous home jersey this jersey provides air holes for players to get maximum amount of cooling during matches.",
+          "has_sizes":true,
+          "price":"35.99",
+          "rating":"4.00",
+          "image_url":"https://cdna1.zoeysite.com/Adzpo594RQGDpLcjBynL1z/cache=expiry:31536000//auto_image/compress/https://s3.amazonaws.com/zcom-media/sites/a0iE000000OXXRAIA5/media/catalog/product/d/s/dscf3456.jpg",
+          "image":"2015_nwH9kt1.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":64,
+       "fields":{
+          "category":4,
+          "sku":"pp50049101910",
+          "name":"Away 2015/16",
+          "description":"Sponsored by new balance this was a lovely shirt made due to its bright green color and white pin stripe design along with Magner's cider.",
+          "has_sizes":true,
+          "price":"30.99",
+          "rating":"4.25",
+          "image_url":"https://d2h1pu99sxkfvn.cloudfront.net/b0/9097710/425168402_iEh2xl0w6v/P0.jpg",
+          "image":"2015away_A2y9K9h.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":65,
+       "fields":{
+          "category":4,
+          "sku":"pp50049101980",
+          "name":"Home 2016/17",
+          "description":"A beautiful shirt that started the Brendan Rodgers era at Celtic. Celtic won an invincible treble whilst also applying themselves exceptionally in the champions league group stages.",
+          "has_sizes":true,
+          "price":"45.99",
+          "rating":"4.90",
+          "image_url":"https://www.oldfootballshirts.com/img/shirts/163/celtic-home-football-shirt-2016-2017-s_51697_1.jpg",
+          "image":"2016_urPi45f.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":66,
+       "fields":{
+          "category":4,
+          "sku":"pp50049101981",
+          "name":"Away 2016/17",
+          "description":"A shirt that stood the celtic in good stead. Leigh Griffiths scored a hatrick to cement the hoops in the champions league group stages.",
+          "has_sizes":true,
+          "price":"33.99",
+          "rating":"3.60",
+          "image_url":"https://www.uksoccershop.com/blog/wp-content/uploads/2016/07/celtic-16-17-away-kit-front.jpg",
+          "image":"2016away_ydW6kyp.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":67,
+       "fields":{
+          "category":4,
+          "sku":"pp50049101982",
+          "name":"Home 2017/18",
+          "description":"The green, white and gold design reflects the Johnny Mac's famous green white and gold song from the 90's that is still a major hit with celtic supporters.",
+          "has_sizes":true,
+          "price":"40.99",
+          "rating":"4.50",
+          "image_url":"https://www.bmcsports.ie/images/new-balance-pre-order-celtic-home-ss-jersey-release-date-25-05-2017-p19557-25363_zoom.jpg",
+          "image":"2017_bVg0fjd.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":68,
+       "fields":{
+          "category":4,
+          "sku":"pp50049101983",
+          "name":"Away 2017/18",
+          "description":"Another shirt yet again that celtic wore that they cemented another treble. A double treble!",
+          "has_sizes":true,
+          "price":"44.99",
+          "rating":"4.00",
+          "image_url":"https://www.soccerpro.com/wp-content/uploads/2018/01/mt730045_vdg_new_balance_celtic_away_jsy_01.jpg",
+          "image":"2017away_vKX8IU8.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":69,
+       "fields":{
+          "category":4,
+          "sku":"pp50049101984",
+          "name":"Home 2018/19",
+          "description":"Dafabet sponsored. Well, it was yet another treble that celtic achieved in this shirt. A truly iconic shirt among celtic fans",
+          "has_sizes":true,
+          "price":"33.99",
+          "rating":"4.00",
+          "image_url":"https://i.pinimg.com/originals/7e/5a/31/7e5a3189aba04acb8585be912af197bf.jpg",
+          "image":"2018_jQLmS3X.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":70,
+       "fields":{
+          "category":4,
+          "sku":"pp50049101985",
+          "name":"Away 2018/19",
+          "description":"A lovely shirt with a real 1980's feel to it. An all-white away shirt always welcomed by celtic fans",
+          "has_sizes":true,
+          "price":"48.99",
+          "rating":"2.50",
+          "image_url":"https://www.lifestylesports.com/on/demandware.static/-/Sites-LSS_eCommerce_Master/default/dw6cba32ff/images/57369000xlarge.jpg",
+          "image":"2018away_LX3TPY9.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":71,
+       "fields":{
+          "category":4,
+          "sku":"pp50049101987",
+          "name":"Home 2019/20",
+          "description":"In the eyes of many celtic fans this is perhaps the most iconic shirt. This shirt cemented what is a world record of 4 consecutive domestic trebles. A season to remember that will last a lifetime among all celtic fans.",
+          "has_sizes":true,
+          "price":"5.00",
+          "rating":"3.00",
+          "image_url":"https://footballfanuk.com/wp-content/uploads/2020/07/DSCN6694.jpg",
+          "image":"2019_nxioyHf.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":72,
+       "fields":{
+          "category":4,
+          "sku":"pp50049101989",
+          "name":"Away 2019/20",
+          "description":"The shirt that Olivier Ntcham scored to seal one of the most famous in celtic's history by beating a star studded Lazio side in the stadio olympico.",
+          "has_sizes":true,
+          "price":"40.99",
+          "rating":"4.00",
+          "image_url":"https://footballfanuk.com/wp-content/uploads/2020/07/DSCN6694.jpg",
+          "image":"2019away_eCJ6Sfo.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":73,
+       "fields":{
+          "category":6,
+          "sku":"pp50049101100",
+          "name":"Kids toothbrush",
+          "description":"2 Kids size toothbrush - kids size",
+          "has_sizes":false,
+          "price":"4.99",
+          "rating":"5.00",
+          "image_url":"https://store.celticfc.net/media/catalog/product/cache/49db189878e925e3358fd08046e1c996/P/5/P5134-53-0-002_2.jpg",
+          "image":"kidstoothbrush_hecu6bm.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":74,
+       "fields":{
+          "category":6,
+          "sku":"pp50049101101",
+          "name":"Bath towell",
+          "description":"Celtic towell with crest",
+          "has_sizes":false,
+          "price":"3.99",
+          "rating":"4.00",
+          "image_url":"https://store.celticfc.net/media/catalog/product/cache/49db189878e925e3358fd08046e1c996/P/5/P5134-53-0-002_2.jpg",
+          "image":"celtictowell_Be7twwi.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":75,
+       "fields":{
+          "category":6,
+          "sku":"pp50049101102",
+          "name":"Adult toothbrush",
+          "description":"Adult toothbrush - green",
+          "has_sizes":false,
+          "price":"4.99",
+          "rating":"5.00",
+          "image_url":"https://store.celticfc.net/media/catalog/product/cache/49db189878e925e3358fd08046e1c996/P/5/P5134-53-0-001_2.jpg",
+          "image":"adulttoothbrush_S6u9Ur5.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":76,
+       "fields":{
+          "category":6,
+          "sku":"pp50049101104",
+          "name":"Cologne",
+          "description":"A fragrance for any occassion. Smell the part.",
+          "has_sizes":false,
+          "price":"79.99",
+          "rating":"5.00",
+          "image_url":"https://store.celticfc.net/media/catalog/product/cache/49db189878e925e3358fd08046e1c996/P/8/P8118-78-0-001.jpg",
+          "image":"celticcologne_b7reaT0.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":77,
+       "fields":{
+          "category":5,
+          "sku":"pp50049101201",
+          "name":"Signed football boots",
+          "description":"Elynoussi signed football boots. Match worn.",
+          "has_sizes":false,
+          "price":"259.99",
+          "rating":"5.00",
+          "image_url":"https://store.celticfc.net/media/catalog/product/cache/49db189878e925e3358fd08046e1c996/p/-/p-9447-elyounoussi-boot.jpg",
+          "image":"ellysignedboots_yZE7WfM.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":78,
+       "fields":{
+          "category":5,
+          "sku":"pp50049101201",
+          "name":"Billy McNeil celtic shirt",
+          "description":"Billy McNeil celtic shirt. Limited condition",
+          "has_sizes":false,
+          "price":"49.99",
+          "rating":"5.00",
+          "image_url":"https://www.teamzo.com/images/re-celtic-1967-european-cup-winners-retro-shirt-mcneill-5-1612450999.png",
+          "image":"billymcneil1967.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":79,
+       "fields":{
+          "category":5,
+          "sku":"pp50049101204",
+          "name":"Matchday programme",
+          "description":"Celtic v barcelona matchday programme the night the celtic defeated the world's best team with the world best players.",
+          "has_sizes":false,
+          "price":"15.99",
+          "rating":"4.25",
+          "image_url":"https://files.magzter.com/resize/magazine/1349105209/2/view/3.jpg",
+          "image":"celticvbarcaprogramme_yaXEBof.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":80,
+       "fields":{
+          "category":5,
+          "sku":"pp50049101205",
+          "name":"Vodka bottle",
+          "description":"Bottle of celtic vodka perhaps to celebrate a hoops win or for friends and family. \r\n* Must be over 18 *",
+          "has_sizes":false,
+          "price":"39.99",
+          "rating":"4.95",
+          "image_url":"https://cdn.shopify.com/s/files/1/1258/0695/products/Celtic_C_1600x.jpg?v=1568987256",
+          "image":"celticvodka_IlG4pLB.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":81,
+       "fields":{
+          "category":5,
+          "sku":"pp50049101210",
+          "name":"9 in a row medallion",
+          "description":"A medallion to keep for the decades to come to reflect on the hoops incredible run of 9 league titles on the bounce.",
+          "has_sizes":false,
+          "price":"19.99",
+          "rating":"5.00",
+          "image_url":"https://images.45spaces.com/f/gla/celtic-medallions-medals-coins-esso-etc-none-2-gla.jpg",
+          "image":"9inarow_lI3dieF.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":82,
+       "fields":{
+          "category":7,
+          "sku":"pp50049101300",
+          "name":"Decanter",
+          "description":"The perfect deanter for any celtic fan.",
+          "has_sizes":false,
+          "price":"18.99",
+          "rating":"5.00",
+          "image_url":"https://store.celticfc.net/media/catalog/product/cache/49db189878e925e3358fd08046e1c996/P/7/P7178-78-0-001.jpg",
+          "image":"9inarowdecanter_fHEcu9q.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":83,
+       "fields":{
+          "category":10,
+          "sku":"pp50049101701",
+          "name":"Celtic 2020/21 home shirt.",
+          "description":"Celtic 2020/21 home shirt. A beautiful baggy fit with lovely shades of green. Sponsored by adidas.",
+          "has_sizes":true,
+          "price":"13.99",
+          "rating":"3.00",
+          "image_url":"https://store.celticfc.net/media/catalog/product/cache/49db189878e925e3358fd08046e1c996/P/7/P7142-74-0-001_9.jpg",
+          "image":"deal2021.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":84,
+       "fields":{
+          "category":10,
+          "sku":"pp50049101702",
+          "name":"Regular tee",
+          "description":"Represent your celtic colors at any time with this celtic tshirt.",
+          "has_sizes":true,
+          "price":"15.99",
+          "rating":"3.00",
+          "image_url":"https://store.celticfc.net/media/catalog/product/cache/49db189878e925e3358fd08046e1c996/P/7/P7202-50-0-001_6.jpg",
+          "image":"celtictshirt.jpeg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":85,
+       "fields":{
+          "category":10,
+          "sku":"pp50049101709",
+          "name":"celtic black tshirt",
+          "description":"Keep it simple with a bold celtic tee with large crest.",
+          "has_sizes":true,
+          "price":"12.99",
+          "rating":"4.00",
+          "image_url":"https://m.media-amazon.com/images/I/71i5AybZ6eL._AC_UL1500_.jpg",
+          "image":"celticmenscrest_3HyudCe.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":86,
+       "fields":{
+          "category":10,
+          "sku":"pp50049101740",
+          "name":"9 in a row flag",
+          "description":"A celtic wreath a must have for any celtic fan with banner.",
+          "has_sizes":false,
+          "price":"9.99",
+          "rating":"2.00",
+          "image_url":"https://cdn11.bigcommerce.com/s-sy7f6cu3f/images/stencil/1280x1280/products/325/596/MartCam2__98930.1615833995.png?c=1",
+          "image":"wreath_U7fcboM.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":87,
+       "fields":{
+          "category":11,
+          "sku":"pp50049101000",
+          "name":"Celtic scarf",
+          "description":"Keep yourself nice and warm with this celtic crested match day scarf.",
+          "has_sizes":false,
+          "price":"4.99",
+          "rating":"3.00",
+          "image_url":"https://store.celticfc.net/media/catalog/product/cache/49db189878e925e3358fd08046e1c996/P/6/P6328-53-0-001_1.jpg",
+          "image":"scarf.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":88,
+       "fields":{
+          "category":11,
+          "sku":"pp50049101001",
+          "name":"Celtic and Ireland scarf",
+          "description":"A dual purpose scarf to wear at both Ireland and celtic games.",
+          "has_sizes":false,
+          "price":"12.99",
+          "rating":"4.00",
+          "image_url":"https://mk0celticclothif70ot.kinstacdn.com/wp-content/uploads/2019/05/Irish-Football-Soccer-Scarf-Green.jpg",
+          "image":"celticirelandscarf.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":89,
+       "fields":{
+          "category":11,
+          "sku":"pp50049101002",
+          "name":"Celtic rug",
+          "description":"Keep your dining or livinf room stylish with this celtic rug.",
+          "has_sizes":false,
+          "price":"8.99",
+          "rating":"2.00",
+          "image_url":"https://cdn.shopify.com/s/files/1/1825/9209/products/61dtS5Kt5IL._SL1300_2000x.jpg?v=1558366944",
+          "image":"rug.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":90,
+       "fields":{
+          "category":11,
+          "sku":"pp50049101003",
+          "name":"Celtic tie",
+          "description":"Look the part at any board room meeting or family gathering event with this beautiful tie.",
+          "has_sizes":false,
+          "price":"33.99",
+          "rating":"5.00",
+          "image_url":"https://store.celticfc.net/media/catalog/product/cache/49db189878e925e3358fd08046e1c996/P/5/P5033-21-0-001.jpg",
+          "image":"tie.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":91,
+       "fields":{
+          "category":11,
+          "sku":"pp50049101004",
+          "name":"Hankerchief set",
+          "description":"A set of three hanker chiefs with celtic crest.",
+          "has_sizes":true,
+          "price":"9.99",
+          "rating":"5.00",
+          "image_url":"https://store.celticfc.net/media/catalog/product/cache/49db189878e925e3358fd08046e1c996/P/6/P6043-120-0-001_2.jpg",
+          "image":"hankerchiefset.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":92,
+       "fields":{
+          "category":11,
+          "sku":"pp50049101005",
+          "name":"Face mask",
+          "description":"Keep germs away during these covid times with this celtic face mask.",
+          "has_sizes":false,
+          "price":"3.80",
+          "rating":"3.80",
+          "image_url":"https://ih1.redbubble.net/image.1381176626.9285/ur,mask_flatlay_front,product,600x600.jpg",
+          "image":"facemask.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":93,
+       "fields":{
+          "category":7,
+          "sku":"pp50049101006",
+          "name":"Dinner plate",
+          "description":"Celti dinner plate with players such as Neil Lennon and manager Martin O'Neil.",
+          "has_sizes":false,
+          "price":"3.99",
+          "rating":"2.00",
+          "image_url":"https://yams.secondhandapp.at/api/v1/shpock-production/images/58ad605f75a74df779495558/?rule=w1200q75jpeg",
+          "image":"kitchenplates.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":94,
+       "fields":{
+          "category":7,
+          "sku":"pp50049101007",
+          "name":"Mug",
+          "description":"Celtic mug to drink your favorite brew",
+          "has_sizes":false,
+          "price":"3.99",
+          "rating":"3.00",
+          "image_url":"https://d8mkdcmng3.imgix.net/9152/670541.jpg?auto=format&bg=0FFF&fit=fill&h=600&q=100&w=600&s=26896a43a8c453b5e9c271a4dc8ec7e8",
+          "image":"mug.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":95,
+       "fields":{
+          "category":7,
+          "sku":"pp50049101008",
+          "name":"Shopping bag",
+          "description":"Shopping bag to carry groceries or other personal items whatever the occassion",
+          "has_sizes":false,
+          "price":"2.99",
+          "rating":"4.00",
+          "image_url":"https://cdn.shopify.com/s/files/1/1825/9209/products/71kWWb-iHtL._SL1500_2000x.jpg?v=1559212094",
+          "image":"shoppingbag.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":96,
+       "fields":{
+          "category":7,
+          "sku":"pp50049101009",
+          "name":"Thermal flask",
+          "description":"Keep your coffee/tea warm for up to 24 hours with this flask.",
+          "has_sizes":false,
+          "price":"5.99",
+          "rating":"5.00",
+          "image_url":"https://img.joomcdn.net/207cfa3394224f30f19e0e60d0fcc04838ad08f5_original.jpeg",
+          "image":"thermalflask.jpeg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":97,
+       "fields":{
+          "category":7,
+          "sku":"pp50049101100",
+          "name":"Coffee mug",
+          "description":"A celtic coffee mug",
+          "has_sizes":false,
+          "price":"3.99",
+          "rating":"4.50",
+          "image_url":"https://cdn.shopify.com/s/files/1/1825/9209/products/celln1_2000x.jpg?v=1614941650",
+          "image":"coffeemug.jpg"
+       }
+    },
+    {
+       "model":"products.product",
+       "pk":98,
+       "fields":{
+          "category":11,
+          "sku":"pp50049101101",
+          "name":"Beer coasters",
+          "description":"Beer coasters to rest beer bottles or pint glasses.",
+          "has_sizes":true,
+          "price":"3.99",
+          "rating":"3.00",
+          "image_url":"https://images-na.ssl-images-amazon.com/images/I/613GmV62%2BTL._SL1001_.jpg",
+          "image":"coasters.jpg"
+       }
+    }
+ ]
