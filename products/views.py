@@ -71,10 +71,7 @@ def product_detail(request, product_id):
 
     return render(request, 'products/product_detail.html', context)
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 96664db6437848d5bd266db4195d0824e3a033ac
 @login_required
 def add_product(request):
     """ Add a product to the store """
