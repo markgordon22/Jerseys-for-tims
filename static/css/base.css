@@ -184,7 +184,7 @@ padding-top: 150px;
   }
 
   .about-page-image{
-    background: url('/media/aboutpageimg.jpg') no-repeat center center fixed;
+    background: url('https://jerseys-for-tims.s3.eu-west-1.amazonaws.com/media/aboutpageimg.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 130vh;
   }
@@ -478,13 +478,13 @@ a.btn.btn-outline-secondary.rounded-0.toast-btn.mt-3.p-2.btn-block{
 
 a.btn.btn-outline-secondary.rounded-0.toast-btn.mt-3.p-2.btn-block:hover{
   border: 1px solid #000000;
-  background-color: #343A40;
+  background-color: #ffffff;
   color: #ffc107;
 }
 
 #sort-selector.custom-select.custom-select-sm.rounded-0.border-black{
 height: 45px;
-background-color: #343a40;
+background-color: #ad8409;
 color: #ffff;
 }
 
@@ -613,6 +613,16 @@ margin-bottom: 5px;
   border-color: #dc3545;
   border-radius: 0;
 }
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;}
+
+.col,
+  [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
 
 
 
