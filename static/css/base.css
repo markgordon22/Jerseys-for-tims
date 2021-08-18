@@ -484,7 +484,7 @@ a.btn.btn-outline-secondary.rounded-0.toast-btn.mt-3.p-2.btn-block:hover{
 
 #sort-selector.custom-select.custom-select-sm.rounded-0.border-black{
 height: 45px;
-background-color: #ad8409;
+background-color: yellow;
 color: #ffff;
 }
 
@@ -614,15 +614,6 @@ margin-bottom: 5px;
   border-radius: 0;
 }
 
-.no-gutters {
-  margin-right: 0;
-  margin-left: 0;}
-
-.col,
-  [class*="col-"] {
-    padding-right: 0;
-    padding-left: 0;
-  }
 
 
 
