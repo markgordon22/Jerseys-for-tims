@@ -489,7 +489,7 @@ color: #ffff;
 }
 
 .all-auth-img{
-  background: url('https://www.67hailhail.com/static/uploads/18/2021/06/GettyImages-1292761102-scaled.jpg') no-repeat center center fixed;
+  background: url('/media/all-auth-bg-img.png') no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
 }
