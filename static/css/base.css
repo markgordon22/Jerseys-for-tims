@@ -18,27 +18,12 @@ background-size: cover;
 height: 100vh;
 }
 
-a#all-products-link.logo-font.nav-link.text-black.mr-5{
-font-size: 20px;
-color: #ffffff;
-}
-
-a#specials-link.logo-font.nav-link.text-black{
-font-size: 20px;
-color: #ffffff;
-
-}
-
-a#homeware-link.logo-font.nav-link.text-black{
-font-size: 20px;
-color: #ffffff;
-
-}
-
+a#all-products-link.logo-font.nav-link.text-black.mr-5,
+a#specials-link.logo-font.nav-link.text-black,
+a#homeware-link.logo-font.nav-link.text-black,
 a#clothing-link.logo-font.nav-link.text-black.mr-5{
-font-size: 20px;
+font-size: 15px;
 color: #ffffff;
-
 }
   
 div#topnav{
@@ -91,6 +76,7 @@ color: #ffffff;
 transform: scale(1.01);
 }
 
+#home-link
 .my-account,
 .my-account-icon,
 .shopping-bag-icon,
@@ -484,7 +470,7 @@ a.btn.btn-outline-secondary.rounded-0.toast-btn.mt-3.p-2.btn-block:hover{
 
 #sort-selector.custom-select.custom-select-sm.rounded-0.border-black{
 height: 45px;
-background-color: yellow;
+background-color:#6c757d;
 color: #ffff;
 }
 
@@ -613,6 +599,16 @@ margin-bottom: 5px;
   border-color: #dc3545;
   border-radius: 0;
 }
+
+button.navbar-toggler.bg-white.mb-3{
+padding: 0px 0px 0px 0px;
+font: 10;
+margin: 0px;
+}
+
+
+
+
 
 
 

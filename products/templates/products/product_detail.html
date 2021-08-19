@@ -52,14 +52,14 @@
                         <div class="form-row">
                             {% if request.user.is_superuser %}
                         <small class="ml-3">
-                            <a href="{% url 'edit_product' product.id %}">Edit</a> | 
-                            <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
+                            <a href="{% url 'edit_product' product.id %}" style="font-size: larger;">Edit</a> | 
+                            <a class="text-danger" style="font-size: larger;" href="{% url 'delete_product' product.id %}">Delete</a>
                         </small>
                     {% endif %}
                             {% with product.has_sizes as s %}
                             {% if s %}
                                 <div class="col-12">
-                                    <p><strong>Size:</strong></p>
+                                    <p class="mt-3"><strong>Size:</strong></p>
                                     <select class="form-control rounded-0 w-50" name="product_size" id='id_product_size'>
                                         <option value="xs">XS</option>
                                         <option value="s">S</option>

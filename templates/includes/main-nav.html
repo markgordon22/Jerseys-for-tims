@@ -1,6 +1,10 @@
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
-        
+        <li class="nav-item d-block d-md-none">
+            <a class="nav-link text-white mr-5" style="font-size: 20px" href="{% url 'home' %}" id="home-link">
+                Home
+            </a>
+        </li>
         <li class="nav-item dropdown">
             <a class="logo-font nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 All Products
@@ -35,7 +39,7 @@
                 <a href="{% url 'products' %}?category=bed_bath" class="dropdown-item">Bed & Bath</a>
                 <a href="{% url 'products' %}?category=kitchen_dining" class="dropdown-item">Kitchen and Dining</a>
                 <a href="{% url 'products' %}?category=accessories" class="dropdown-item">Accessories</a>
-                <a href="{% url 'products' %}?category=bed_bath,kitchen_dining,accessories" class="dropdown-item">All Home merchandise</a>
+                <a href="{% url 'products' %}?category=bed_bath,kitchen_dining,accessories" class="dropdown-item">All Home Merchandise</a>
 
             </div>
         </li>
@@ -46,8 +50,8 @@
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
                 <a href="{% url 'about' %}" class="dropdown-item">About Jerseys for Tims</a>
-                <a href="{% url 'faq' %}" class="dropdown-item">faqs</a>
-                <a href="" class="dropdown-item">contact us</a>
+                <a href="{% url 'faq' %}" class="dropdown-item">Faqs</a>
+                <a href="" class="dropdown-item">Contact Us</a>
             </div>
         </li>
 
