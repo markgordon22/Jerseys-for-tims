@@ -22,7 +22,7 @@ a#all-products-link.logo-font.nav-link.text-black.mr-5,
 a#specials-link.logo-font.nav-link.text-black,
 a#homeware-link.logo-font.nav-link.text-black,
 a#clothing-link.logo-font.nav-link.text-black.mr-5{
-font-size: 15px;
+font-size: 20px;
 color: #ffffff;
 }
   
@@ -88,6 +88,7 @@ transform: scale(1.01);
 .mobile-search-icon,
 .mobile-grand-total{
 color: #ffffff;
+font-size: 20px;
 }
 
 .logo-font{
@@ -230,6 +231,7 @@ color: #ffffff;
 
 a.dropdown-item{
 color: #ffffff;
+font-size: 15px;
 }
 
 button.navbar-toggler{
@@ -464,8 +466,7 @@ a.btn.btn-outline-secondary.rounded-0.toast-btn.mt-3.p-2.btn-block{
 
 a.btn.btn-outline-secondary.rounded-0.toast-btn.mt-3.p-2.btn-block:hover{
   border: 1px solid #000000;
-  background-color: #ffffff;
-  color: #ffc107;
+  transform: scale(1.02);
 }
 
 #sort-selector.custom-select.custom-select-sm.rounded-0.border-black{
@@ -600,11 +601,6 @@ margin-bottom: 5px;
   border-radius: 0;
 }
 
-button.navbar-toggler.bg-white.mb-3{
-padding: 0px 0px 0px 0px;
-font: 10;
-margin: 0px;
-}
 
 
 
