@@ -4,11 +4,12 @@ from .models import Faq
 # Register your models here.
 
 
-class FaqSiteAdmin(admin.ModelAdmin):
+class FaqAdmin(admin.ModelAdmin):
     list_display = (
         'question',
-        'answer'
+        'answer',
+        'date',
     )
 
 
-admin.site.register(Faq, FaqSiteAdmin)
+admin.site.register(Faq, FaqAdmin)

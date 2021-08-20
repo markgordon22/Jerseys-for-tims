@@ -6,7 +6,7 @@ class FaqForm(forms.ModelForm):
     class Meta:
         model = Faq
         fields = [
-            'question', 'answer'
+            'question', 'answer', 'date'
             ]
 
     def __init__(self, *args, **kwargs):
@@ -15,6 +15,7 @@ class FaqForm(forms.ModelForm):
         placeholders = {
             'question': 'question',
             'answer': 'answer',
+            'data': 'date',
         }
         for field in self.fields:
             placeholder = f'{placeholders[field]} *'
