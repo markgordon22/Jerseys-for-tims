@@ -3,9 +3,11 @@ Hi {{ instance.name }},
 Thank you for getting in touch with us!
 
 
-Your matter and query:
+Your matter:
 
 {{ instance.matter}}
+
+Your query:
 
 {{ instance.query}}
 
