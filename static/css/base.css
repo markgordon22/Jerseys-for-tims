@@ -173,7 +173,7 @@ padding-top: 150px;
   .about-page-image{
     background: url('https://jerseys-for-tims.s3.eu-west-1.amazonaws.com/media/aboutpageimg.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: 130vh;
+    height: 1000px;
   }
 
   img.card-img-top{
@@ -605,9 +605,12 @@ margin-bottom: 5px;
   border-radius: 0;
 }
 
-.header-container{
+div.container-fluid.container-faq{
 height: 1000px;
+background: url('/media/celticparkhead.jpg') no-repeat center center fixed;
+background-size: cover;
 }
+
 
 
 
