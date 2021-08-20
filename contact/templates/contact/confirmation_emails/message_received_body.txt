@@ -1,0 +1,16 @@
+Hi {{ instance.name }},
+
+Thank you for getting in touch with us!
+
+
+Your matter and query:
+
+{{ instance.matter}}
+
+{{ instance.query}}
+
+We intent to respond to all our emails within 48 hours - if your concern is urgent please call Jerseys for Tims at 085 555 6666.
+
+kind regards,
+
+Jerseys for Tims.
