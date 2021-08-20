@@ -49,4 +49,3 @@ def contact(request):
 
     return render(request, template, context)
 
-# subscribe to newsletter
