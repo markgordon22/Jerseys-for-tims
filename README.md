@@ -234,7 +234,7 @@ Having installed Django allauth, respective authentication, registration, accoun
 - All data related to Products was compiled in a JSON format and is stored in a fixtures folder, as does the FAQ data in its own fixtures folder.
 - The Data Model below was created using [drawSQL]():
  
-![image]()
+![image](uximages/datamodel.png)
  
 ---
  
@@ -256,7 +256,7 @@ The font used for the site was [Noto Sans TC
  
 ### Imagery
 
-
+Images for the site were compiled from google images.
  
 ### Icons
 The icons used throughout the site are taken from [Font Awesome](https://fontawesome.com/). Particularly for social media icons.
@@ -276,7 +276,30 @@ The icons used throughout the site are taken from [Font Awesome](https://fontawe
 ## **Frameworks, Libraries and Other Sources**
  
 - [Balsamiq](https://balsamiq.com/) to make wireframes for site
- 
+- [Font Awesome](https://fontawesome.com/)
+    - Font awesome used in site to implement icons for atractive visual purposes, boosting user experience. 
+- [Git](https://git-scm.com/)
+    - for version control with the use of the gitpod terminal to commit to Git and push code to GitHub.
+- [GitHub](https://github.com/)
+    - used for storage of code after it has been pushed Gitpod terminal.
+- [Google Fonts](https://fonts.google.com/)
+    - Google fonts were used to import selected font
+- [CSS formatter](https://www.cleancss.com/css-beautify/)
+    - To beautify css code
+- [Javascript formatter](https://beautifier.io/)
+    - To beautify javascript code.
+- [Heroku](https://dashboard.heroku.com/apps)
+    - Heroku is used for deployment of the site.
+- [HTML validator](https://validator.w3.org/)
+    - testing validator for html code
+- [Javascript validator](https://jshint.com/)
+    - testing validator for javascript code
+- [CSS validator](https://validator.w3.org/) 
+    - testing validator for css code
+- [pep8 validator](http://pep8online.com/checkresult)
+    - testing validator for python code
+- [Autoprefixer](https://autoprefixer.github.io/) 
+    - to add vendor prefixes to css
 - [Django](https://www.djangoproject.com/) utilised as the predominant framework for the project.
 - [Django Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/) for forms on site.
 - [Django Allauth](https://django-allauth.readthedocs.io/en/latest/) for user authenticity for site.
@@ -534,6 +557,7 @@ Run your own app with:
 - [Stackoverflow](https://stackoverflow.com/questions/55227106/css-animation-text-sliding-left-to-right) for help on how to make the scroll text animation on the delivery banner
 - [Stackoverflow](https://stackoverflow.com/questions/29211115/adding-link-to-the-admin-index-page-in-django) on adding the Django admin index url
 - [Django Docs](https://django-book.readthedocs.io/en/latest/chapter14.html) was a guide used to look over elements such as django imports, models and admin panels.
+- [Structure for this Readme](https://github.com/elerel/ms4-siopa-fia)
  
 **Content:**
 - [Yours Clothing](https://www.yoursclothing.ie/faq?glCountry=IE&glCurrency=GBP) was used to generate some sample faqs.
