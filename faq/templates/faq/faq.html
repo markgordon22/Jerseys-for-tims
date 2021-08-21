@@ -1,13 +1,61 @@
 {% extends "base.html" %}
 {% load static %}
 
-
 {% block content %}
-<div class="container-fluid container-faq">
-</div>
 
-  
 
-  
-    
+<div class="container">
+ <div class="col-12 text-center">
+    <h1 class="text-center text-black mt-5">FAQs</h1>
+ </div>
+ <div class="container">
+    {% for f in faq %}
+ <div class="row no-gutters card">
+       
+          <div class="card p-4 my-4">
+             <h3 class="text-center text-black mb-4">{{ f.question }}</h3>
+             <h5 class="text-center pr-3 pl-3">{{ f.answer }}
+             </h5>
+             {% if request.user.is_superuser %}
+             <small>
+                 <div class="buttons text-center">
+                <a class="btn btn-outline-secondary rounded-0 mr-2 mt-3" href="{% url 'edit_faq' f.id %}">Edit</a>
+                <button type="button" class="btn btn-dark rounded-0 ml-2 mt-3" data-toggle="modal"
+                   data-target="#deleteFaq_{{f.id}}">
+                   Delete
+                </button>
+                </div>
+             </small>
+             {% endif %}
+             
+          </div>
+          </div>
+          </div>
+          </div>
+
+             <!--Delete Blogpost Modal -->
+         <div class="modal fade" id="deleteFaq_{{f.id}}" tabindex="-1"
+         aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h4 class="font-weight-bold text-center" id="deleteFModal">Delete FAQ</h4>
+                  <hr>
+               </div>
+               <div class="modal-body">
+                  <p class="text-center">Are you sure you want to delete<strong>
+                        {{ f.question }}</strong>?</p>
+               </div>
+               <div class="modal-footer text-center">
+                  <button type="button" class="increment-qty btn btn-black rounded-0"
+                     data-dismiss="modal">Cancel</button>
+                  <a class="btn btn-outline-secondary rounded-0"
+                     href="{% url 'delete_faq' f.id %}">Delete</a>
+               </div>
+            </div>
+         </div>
+      </div>
+        
+   
+          {% endfor %}
 {% endblock %}
