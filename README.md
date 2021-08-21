@@ -78,11 +78,11 @@ Primary functions of Siopa Fia:
 |:--------------------:|:------------------------------------------------------------------------:|:-------------------------------------------------------------:|
 |                      |                                                                          |                                                               |
 |          ---         |                                    ---                                   |                              ---                              |
-| First time user      | easily navigate Jerseys for Tims;                                                | see what I am searching for quickly                            |
-| First time user      | view the site on aa multiple of screen sizes;                                       | view the platform across a multiple of screen devices                             |
+| First time user      | easily navigate around Jerseys for Tims;                                                | see what I am searching for quickly                            |
+| First time user      | view the site on multiple screen devices and sizes;                                       | view site on different screen sizes                             |
 | First time user      | see different lists of products                                                  | see items that are available to purchase                                   |
 | First time user      | see product details/info                                          | see exactly what I am buying or might buy                                 |
-| First time user      | read company description and the story behind it                                       | gain trust in the company and support local business activity          |
+| First time user      | read company description and the story behind it                                       | gain trust in the company I might be buying from         |
 | First time user      | search for product categories                                       | find the best-rated/priced products in a specific category    |
 | First time user      | search for a product by name, category.                                | easily find the exact product Im looking for                  |
 | First time user      | view items chosen/selected in my shopping bag                                  | easily see how much I might be spending                             |
@@ -90,7 +90,7 @@ Primary functions of Siopa Fia:
 | First time user      | access contact details of the company;                                                  | get in touch with any questions I may have now or in the future                              |
 | First time user      | access social media platforms of the company;                                      | view their social media presence  and be able to contact via those respective platforms               |
 | First time user      | register a user profile account by picking a username, password; | use this as storage of my own details and purchase history            |
-| First time user      | make purchases as a guest user                                          | do not have to set up an account if I dont wish to           |             
+| First time user      | make purchases as a guest user                                          | not have to set up an account if I dont wish to           |             
 |          ---         |                                    ---                                   |                              ---                              |
 | Registered user      | log in and out of my profile;                                |  prevent negligence of other users trying to access my account       |
 | Registered user      | update my personal details                                                        | update address, phone number etc, in case they need to be altered          |
@@ -102,10 +102,10 @@ Primary functions of Siopa Fia:
 |          ---         |                                    ---                                   |                              ---                              |
 | Site Owner           | add new items and category listings;                                     | continuously update the site with new items or specials       |
 | Site Owner           | update items                                                             | alter price or product criteria                              |
-| Site Owner           | remove items                                                             | remove items that are no longer for sale                      |
-| Site Owner           | view orders made through siopaFIA                                                              | keep track of new and existing orders                      |
+| Site Owner           | remove items                                                             | remove items that are no longer for sale                      ||
 | Site Owner           | view and manage users of Jerseys for Tims                                                            | keep track of new and existing users                      |
 | Site Owner           | Continually update/modify faqs so users won't have to wait for responses from Jerseys for Tims   on their concerns                                                        | to inform visitors to the site of concerns they could have                  |
+| Site Owner           | view users orders                                                    | to manage and keep an eye on users for research and spending patterns.                 |
  
 ---
  
@@ -178,24 +178,33 @@ Once the purchase is finalised and completed, a success message from bootstrap t
 
 ### Contact Page
 
-The contact page 
+The contact page is a simple form with 3 text and input and a textarea. The user once submitting the form will be redirected to the contact success page, along with a toast message that they're email was a success and will receive an email from Jerseys for Tims that they will be in contact with the user over the question or concern shortly.
  
 ### FAQs Page:
  
 Accessible by clicking "FAQS" from the navbar, the user is redirected to the faq app. There is a series of questions with answers on matters that the user may potentially now have or have in future references. Only the site admin can edit/delete faqs. user can also not manually enter the url for the edit/add faqs as they will get instaly get redirected to the sign in page. Some questions and answers were taken from [Your Clothing](https://www.yoursclothing.ie/faq?glCountry=IE&glCurrency=GBP)
 
+### FAQ add page 
 
+Only accessible to the admin/superusers to add a faq that may be of a concern to a number of users to the site.
 
- 
- ### Profile Page:
+## FAQ edit page
+
+Editing of a faq is carried out here so that the admin/superuser can edit or delete a faq.
+
+### Profile Page:
  
 This Profile is reachable only to a registered user that is logged in where the user can track their own individual purchases and payments and modify their personal information. Divided into two sections, the first shows the default delivery information of that user and the second section depicts the past orders of that user along with its cost,order number, items bought and the date the payment for the order that was made.
 
  
 ### Product Management Page
  
-Accessible only to site admin, once logged in they can select "My Account" (dropdown in the navbar) and from there select Product Management where from here they can add any new product that fits into one of the categories.
+Accessible only to site admin or superusers, once logged in they can select "My Account" (dropdown in the navbar) on large and small devices, and from there select Product Management. From here, they can add any new product that fits into one of the categories.
  
+
+### Edit product page
+
+Only accessible to admin and superusers. Editing of products can be achieved here such as its price or rating.
  
 ### Features Left To Implement
 - None.
@@ -227,10 +236,6 @@ Having installed Django allauth, respective authentication, registration, accoun
  
 ![image]()
  
-**Changes made to the Database Model since creation:**
-- The one addition I made to the Blog Model was alter and create three further fields (intro, body_one, body_two, body_three) that contain TextFields. This was to allow more spacing and better paragraph usage in the blog_detail page thus avoiding long and chunky text that can be difficult to read.
- 
-#### [Back to Contents](#contents)
 ---
  
 ## Wireframes
@@ -241,27 +246,20 @@ see wireframes [here](https://github.com/markgordon22/Jerseys-for-tims/tree/main
  
 ### Design
 -  #### Colour Scheme
-   As the colour green is the dominant colour throughout the site, I thought it was a good choice that suited the theme of the site. It is fresh, clean and most often the colour choice for use with the term, "eco" or "environment". The colour chart used is as below, taken from [Color-Hex:](https://www.color-hex.com/color-palette/112498)
+   The color of the site adopted a yellow(#ffc107), a lightgrey(#343A40) and white(#ffffff)due to being a attractive array of colors. A decision was made at the start to not use green as a dominant color despite celtic fc that actually play in green kits. My thought though however was since the majority of the jerseys will be green, I refuted the idea of incorporating green into the foundation of the website make up to prevent green overflow.[Color-Hex:](https://coolors.co/)
  
-   ![image]()
- 
--   In addition to the colour chart chosen, primarily green, to add some diversity is #FFC107 - a strong, bold and mustard-toned yellow that I found eye catching and grabs the user's attention towards it. I used it for the CTA button on the home page, the submit button below the newsletter signup and when hovering over the links in the footer:
- 
-   ![image](
- 
- 
+   ![image](uximages/coolors.png)
  
 ### Typography
-[) font is the logo font used throughout the whole website for headers, navbar categories and dropdown list items partnered with font for the bulk text/paragraph use. Sans Serif was the fallback font in case for
-any reason the font isn't being imported into the site correctly. I chose these fonts as I felt it fit well with the 'eco' theme of the business without overstyling the site with flambouyancy. I believe it has a modern feel, both fonts stand out and fit well throughout the site.
- 
-![image]()
+The font used for the site was [Noto Sans TC
+](https://fonts.google.com/specimen/Noto+Sans+TC). A very clear, concise and readable font family from [google fonts](https://fonts.google.com/)
  
 ### Imagery
 
+
  
 ### Icons
-The icons used throughout the site are taken from [Font Awesome](https://fontawesome.com/).
+The icons used throughout the site are taken from [Font Awesome](https://fontawesome.com/). Particularly for social media icons.
  
  
 ---
