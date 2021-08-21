@@ -121,34 +121,43 @@ Seen across all pages of site
 ### Navbar
  
 The navbar for Jerseys for Tims includes separate designs - one for mobile and tablet devices and the other design for larger devices such as desktop. Simarliy, in the walkthrough project, Boutique Ado supplied by Code Institute, for smaller devices I incorporated Bootstrap's [collapsible toggler](https://getbootstrap.com/docs/4.1/components/navbar/#external-content), the user to the site can be redirected to the main componenents in a drop-down view. The items in the dropdown menu are identical to the ones in the navbar on desktop view. The company logo is present to be a link to the home page of the aswell as the home link on the top of the dropdown list via the hamburger icon from bootstrap. There is also a search icon and a My Account link, where users of the site can register, sign in or view their profile. The user can always view their current spending by the bag displaying the total amount of the items purchased which is posible to view on every page of Jerseys for Tims
+
+Navbar
+![image](uximages/navbar.png)
+
+
+
+mobile navbar
+![image](uximages/mobilenav.png)
  
 ### Delivery Banner
  
 Throughout the site, users will see the free delivery offer on spending anything over £80 using a [scroll-text animation](https://stackoverflow.com/questions/55227106/css-animation-text-sliding-left-to-right) feature from stackoverflow.
  
-![image]()
+![image](uximages/deliverybanner.png)
  
 ### Messages (Toasts)
   Toasts were used so users are aware of important site interactions, such as items being added to their bag, signing up to the newsletter/confirmation, logging in to their profile etc. I imported 'messages' from Django's 'django-contrib' the messages displayed included (error, success, warning, info) are in [Bootstrap's Toast](https://getbootstrap.com/docs/5.0/components/toasts/) format:
  
-![image]()
+ Here is the success message which is apparent throughout the site.
+![image](uximages/toast.png)
  
 ### Footer
-The footer is displayed on every page of Jerseys for Tims and includes two sections. into three separate parts: social links (where the user can follow the company via Facebook, Twitter etc), Shop and Company links.
+The footer is displayed on every page. It contains quotes from famous celtic footballers. There are links to the product categories and contact/faq section of the site.
  
-![image]()
+![image](uximages/footer.png)
  
 ### Home Page:
-Upon directing to the site, the user will receive a sense of what the Jerseys for Tims is about with css fade in texted slogan above the "Shop now!" fade in texted button. The hero image of Parkhead which is the home stadium for Celtic Football Club is which is dubbed "Paradise" by celtic supporters as it is the club they live and breath was selected to convey the message of "home" as it is a home the stadium of celtic football club and the place where many fond memories have been made and will continue to be made, watching the football team they love. The main logo of the site reads "Jerseys for Tims" the word "tim" is a nickname for a celtic fc supporter. The sale button redirects the user to all  94 products the website has, where the user can see the products Jerseys for Tims sells.
+Upon directing to the site, the user will receive a sense of what the Jerseys for Tims is about with css fade in texted slogan above the "Shop now!" fade in texted button. The hero image of Parkhead which is the home stadium for Celtic Football Club is which is dubbed "Paradise" by celtic supporters as it is the club they live and breath. It was selected to convey the message of "home" as it is the home stadium of celtic football club and the place where many fond memories have been made and will continue to be made, watching the football team they love. The main logo of the site reads "Jerseys for Tims" the word "tim" is a nickname for a celtic fc supporter. The shop button redirects the user to all 94 products the website has, where the user can see the products Jerseys for Tims sells.
  
  
 ### All Products Page:
-Similarly to Boutique Ado, the sample walkthrough project supplied to by Code Institute, I demonstrated similar design of displaying 4 products larger deviced pages, medium devices contained 3 products, smaller deviced contained 2 products, with extra small devices containing just one device. The product cards displays an image of the product along with its name, price, category. The user is abled to click an image where they are redirected to the product detail page where they can see further details and description of the product they selected and have the opportunity to add the product to their shopping bag. I decided to place in buttons with the text "quick view" to entice perhaps impulsive users into making them decide to buy a product for business and marketing purposes.
+Similar to Boutique Ado, the sample walkthrough project supplied to by Code Institute, I demonstrated similar design of displaying 4 products larger deviced pages, medium devices contained 3 products, smaller deviced contained 2 products, with extra small devices containing just one device. The product cards displays an image of the product along with its name, price, category. The user is abled to click an image where they are redirected to the product detail page where they can see further details and description of the product they selected and have the opportunity to add the product to their shopping bag. I decided to place in buttons with the text "quick view" to entice perhaps impulsive users into making them decide to buy a product for business and marketing purposes.
  
 As the product list could be large depending on the category of products selected by the user, I included a yellow scroll button which corresponds to the color scheme of the site so that the user can be brought back to the top of the page once scroll button is clicked.
  
 ### Product Detail Page:
-Displaying a larger image and more detail information with a description on the product selected by the user, the user can select the item's size (depending on if the product has sizes), the quantity (within range of the site) they desire to purchase. The user can either click the "Keep Shopping" button at the bottom of the product details where they are redirected back to the all products page or they can add the product to their respective bag by clicking "Add to Bag" button to the right of the "keep shopping" button. The user gets informed they have selected the item with a toast success message from bootstrap which alerts them of the products they've in their bag, with how much (depending on the amount they've in their bag) more they will be required to spend in order to avail of the free delivery offer that is on offer by Jerseys for Tims.
+Displaying a larger image and more detail information with a description on the product selected by the user, the user can select the item's size (depending on if the product has sizes), the quantity (within range of the site) they desire to purchase. The user can either click the "Keep Shopping" button at the bottom of the product details where they are redirected back to the all products page or they can add the product to their respective bag by clicking "Add to Bag" button to the right of the "keep shopping" button. The user gets informed they have selected the item with a toast success message from bootstrap which alerts them of the products they have in their bag, with how much (depending on the amount they've in their bag) more they will be required to spend in order to avail of the free delivery offer that is on offer by Jerseys for Tims.
 The edit and delete anchor links in the product card is only displayed on the superusers account of the site.
  
 ### Shopping Bag Page:
@@ -166,21 +175,26 @@ Once the purchase is finalised and completed, a success message from bootstrap t
  
 ![image]()
  
+
+### Contact Page
+
+The contact page 
  
 ### FAQs Page:
  
-Accessible by clicking "FAQS" from the navbar, the user is redirected to the faq app. There is a series of questions with answers on matters that the user may potentially now have or have in future references. Only the site admin can edit/delete faqs. user can also not manually enter the url for the edit/add faqs as they will get instaly get redirected to the sign in page
+Accessible by clicking "FAQS" from the navbar, the user is redirected to the faq app. There is a series of questions with answers on matters that the user may potentially now have or have in future references. Only the site admin can edit/delete faqs. user can also not manually enter the url for the edit/add faqs as they will get instaly get redirected to the sign in page. Some questions and answers were taken from [Your Clothing](https://www.yoursclothing.ie/faq?glCountry=IE&glCurrency=GBP)
+
+
+
  
  ### Profile Page:
  
-This Profile is reachable only to a registered user that is logged in where the user can track their own individual purchases and payments and modify their personal information. Divided into two sections, the first shows the default delivery information of that user and the second section depicts the past orders of that user along with its cost,order number, items bought and the date the payment for the order was made
- 
-### Product Pages
----
+This Profile is reachable only to a registered user that is logged in where the user can track their own individual purchases and payments and modify their personal information. Divided into two sections, the first shows the default delivery information of that user and the second section depicts the past orders of that user along with its cost,order number, items bought and the date the payment for the order that was made.
+
  
 ### Product Management Page
  
-Accessible only to site admin, once logged in they can select "My Account" (dropdown in the navbar) and from there select Product Management where from here they can add any new product that fits into one of the categories listed (Clothing, Footwear, Skincare, etc.)
+Accessible only to site admin, once logged in they can select "My Account" (dropdown in the navbar) and from there select Product Management where from here they can add any new product that fits into one of the categories.
  
  
 ### Features Left To Implement

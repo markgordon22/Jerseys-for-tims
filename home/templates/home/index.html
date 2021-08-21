@@ -1,42 +1,32 @@
 {% extends "base.html" %}
 {% load static %}
-
 {% block page_header %}
- <div class="index-page">
-     <div class="container">
-        <div class="row">
-            <div class="col"></div>
-            
-        </div>
-    </div>
-
-{% endblock %}
-
-{% block content %}
-
-    <div class="container container-text h-100">
-        <div class="row h-100">
-            <div class="col-12 col-md-7">
-                <div class="my-4">
-                    <div class="home-page-container col-sm-12 fade-in-text">
-                    <h4>
-                        We are the famous Glasgow Celtic
-                    </h4>
-                    <h4 class="movement-text fade-in-text">A club like no other</h4>
-                </div>
-                <div class="col-sm-6">
-                    <h5>
-                        <a href="{% url 'products' %}" class="shop-button btn btn-lg rounded-0 center-align fade-in-text">Shop now!</a>
-                    </h5>
-                    </div>
-                </div>
+<div class="index-page">
+   <div class="container">
+      <div class="row">
+         <div class="col"></div>
+      </div>
+   </div>
+   {% endblock %}
+   {% block content %}
+   <div class="container container-text h-100">
+      <div class="row h-100">
+         <div class="col-12 col-md-7">
+            <div class="my-4">
+               <div class="home-page-container col-sm-12 fade-in-text">
+                  <h4>
+                     We are the famous Glasgow Celtic
+                  </h4>
+                  <h4 class="movement-text fade-in-text">A club like no other</h4>
+               </div>
+               <div class="col-sm-6">
+                  <h5>
+                     <a href="{% url 'products' %}" class="shop-button btn btn-lg rounded-0 center-align fade-in-text">Shop now!</a>
+                  </h5>
+               </div>
             </div>
-        </div>
-    </div>
-    </div>
-
-  
-
-  
-    
+         </div>
+      </div>
+   </div>
+</div>
 {% endblock %}
