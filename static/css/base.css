@@ -18,14 +18,7 @@ background-size: cover;
 height: 100vh;
 }
 
-a#all-products-link.logo-font.nav-link.text-black.mr-5,
-a#specials-link.logo-font.nav-link.text-black,
-a#homeware-link.logo-font.nav-link.text-black,
-a#clothing-link.logo-font.nav-link.text-black.mr-5{
-font-size: 20px;
-color: #ffffff;
-}
-  
+
 div#topnav{
 height: 100px;
 background-color:#343A40
@@ -76,7 +69,7 @@ color: #ffffff;
 transform: scale(1.01);
 }
 
-#home-link
+
 .my-account,
 .my-account-icon,
 .shopping-bag-icon,
@@ -608,6 +601,7 @@ margin-bottom: 5px;
 a.text-danger.btn.btn-outline-secondary.rounded-0{
 cursor: pointer;
 }
+
 
 
 
