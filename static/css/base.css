@@ -605,9 +605,10 @@ margin-bottom: 5px;
   border-radius: 0;
 }
 
-div.container-fluid.faq-image{
-height: 400px;
+a.text-danger.btn.btn-outline-secondary.rounded-0{
+cursor: pointer;
 }
+
 
 
 
