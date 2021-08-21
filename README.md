@@ -315,9 +315,38 @@ The icons used throughout the site are taken from [Font Awesome](https://fontawe
  
 # **Testing**
  
-Jerseys for Tims has been documented in a separate file that can be accessed here: [TESTING.md](https://github.com/elerel/ms4-siopa-fia/blob/master/TESTING.md)
+## Responsiveness Testing
+
+Responsiveness of the site was one of the most important aspects to get right for the site. Responsiveness testing was carried out over the course of the devlopment via chrome dev tools.
+
+Results of the responsiveness on dev tool devices are below.
+
+* Moto G4 - Successful
+* Iphone 4 - Successful
+* Galaxy s5 - Successful
+* Pixel 2 - Successful
+* Pixel 2 XL - Successful
+* Iphone 5/SE - Successful
+* Iphone 6/7/8 - Successful
+* Iphone 6/7/8 plus - Successful
+* Iphone X - Successful
+* Ipad - Successful
+* Ipad Pro - Successful
+* Surface Duo - Successful
+
+Desktop responsiveness - successful
+
+
+## Usability Testing
+
+* Jerseys for Tims was shared with family, friends, along with my mentor who gave me tips including to start getting the responsiveness for smaller devices working first and working my way up to larger devices.
+Getting the site responsive on smaller devices was a challenge, although the responsiveness of the site as I carried on working to get it right on larger devices was significantly easier.
+
+## Lighthouse Testing
+
+Click [here](https://github.com/markgordon22/Jerseys-for-tims/tree/main/testing) for lighthouse test results. Only noticeable cause for concern is the products page on mobile.
  
-#### [Back to Contents](#contents)
+
  
 ---
  
