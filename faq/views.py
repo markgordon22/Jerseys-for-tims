@@ -89,7 +89,7 @@ def delete_faq(request, faq_id):
         messages.error(request, 'Only the guys at Jerseys for Tims can do this team are permitted to do this.')
         return redirect(reverse('home'))
 
-    Faq = get_object_or_404(Faq, pk=faq_id)
-    Faq.delete()
+    faq = get_object_or_404(Faq, pk=faq_id)
+    faq.delete()
     messages.success(request, 'FAQ has been deleted')
     return redirect(reverse('faq'))

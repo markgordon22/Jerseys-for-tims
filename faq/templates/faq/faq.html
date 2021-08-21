@@ -19,6 +19,7 @@
              {% if request.user.is_superuser %}
              <small>
                  <div class="buttons text-center">
+                    <a class="btn btn-info rounded-0 mt-3 mr-3" href="{% url 'add_faq' %}">Add</a>
                 <a class="btn btn-outline-secondary rounded-0 mr-2 mt-3" href="{% url 'edit_faq' f.id %}">Edit</a>
                 <button type="button" class="btn btn-dark rounded-0 ml-2 mt-3" data-toggle="modal"
                    data-target="#deleteFaq_{{f.id}}">
@@ -34,7 +35,7 @@
           </div>
 
              <!--Delete Blogpost Modal -->
-         <div class="modal fade" id="deleteFaq_{{f.id}}" tabindex="-1"
+         <div class="modal fade" id="deleteFaq_{{f.id}}" tabindex="-1" aria-labelledby="deletePModal"
          aria-hidden="true">
          <div class="modal-dialog">
             <div class="modal-content">
@@ -42,6 +43,9 @@
                   <h4 class="font-weight-bold text-center" id="deleteFModal">Delete FAQ</h4>
                   <hr>
                </div>
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+             </button>
                <div class="modal-body">
                   <p class="text-center">Are you sure you want to delete<strong>
                         {{ f.question }}</strong>?</p>
@@ -51,6 +55,7 @@
                      data-dismiss="modal">Cancel</button>
                   <a class="btn btn-outline-secondary rounded-0"
                      href="{% url 'delete_faq' f.id %}">Delete</a>
+                  
                </div>
             </div>
          </div>
