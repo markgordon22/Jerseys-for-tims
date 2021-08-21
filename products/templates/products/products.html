@@ -78,7 +78,7 @@
                                             {% if request.user.is_superuser %}
                                             <small class="ml-3">
                                                 <a href="{% url 'edit_product' product.id %}">Edit</a> | 
-                                                <a class="text-danger" data-toggle="modal"
+                                                <a class="text-danger" style="cursor: pointer;" data-toggle="modal"
                                                 data-target="#deleteProduct_{{product.id}}">Delete</a>
                                             </small>
                                         {% endif %}
@@ -94,17 +94,17 @@
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h4 class="modal-title font-weight-bold text-olive" id="deleteProductModal">Confirm Delete</h4>
+                                <h4 class="modal-title font-weight-bold" id="deleteProductModal">Confirm Delete</h4>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                             </div>
                             <div class="modal-body">
-                                <p class="text-center text-olive logo-font">Are you sure you want to delete<strong class="text-pink"> {{ product.name }}</strong>?</p>
+                                <p class="text-center">Are you sure you want to delete<strong class="text-pink"> {{ product.name }}</strong>?</p>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn shop-btn rounded-0 text-uppercase text-olive" data-dismiss="modal">Cancel</button>
-                                <a class="delete-link btn shop-btn rounded-0 text-uppercase text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
+                                <button type="button" class="increment-qty btn btn-sm btn-black rounded-0 p-2" data-dismiss="modal">Cancel</button>
+                                <a class="btn btn-outline-secondary rounded-0" href="{% url 'delete_product' product.id %}">Delete</a>
                             </div>
                         </div>
                     </div>
