@@ -345,7 +345,14 @@ Getting the site responsive on smaller devices was a challenge, although the res
 ## Lighthouse Testing
 
 Click [here](https://github.com/markgordon22/Jerseys-for-tims/tree/main/testing) for lighthouse test results. Only noticeable cause for concern is the products page on mobile.
- 
+
+
+## Compatability Testing
+
+
+| Compatability tests                         | Chrome | Firefox | Edge |
+| --------------------------------------------| ------ | ------- | ---- |
+| Is the website compatable on these browsers?     |   Yes  |    Yes |  Yes   |
 
  
 ---
