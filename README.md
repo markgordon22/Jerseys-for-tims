@@ -1,9 +1,3 @@
-<div align="center">
-<h1 align="center"></h1>
-<img alt="multi-device site display image"/>
-<br>
-</div>
- 
 # Project Overview
  
 View the live project [here.]()
@@ -41,7 +35,7 @@ Primary functions of Siopa Fia:
            - [Profile Page](#profile-page)
            - [FAQs Page](#faqs-page)
            - [Profile Page](#profile-page)
-           - [Product and Blog Management Pages](#product-and-blog-management-pages)
+           - [Contact Page](#contact-page)
        - [Features Left To Implement](#features-left-to-implement)
    - [Structure](#structure)
    - [Skeleton](#skeleton)
@@ -194,7 +188,7 @@ Accessible only to site admin, once logged in they can select "My Account" (drop
  
  
 ## Structure
-- I wish to create Jerseys for Tims in a manner that deemed clear to new users; easy navigation, find products intuitively and make quick and easy transactions. The site is divided into clear sections and created with Django using the apps listed below: 
+- I wanted to create Jerseys for Tims in a manner that deemed clear to new users; easy navigation, find products intuitively and make quick and easy transactions. The site is divided into clear sections and created with Django using the apps listed below: 
 - Home, 
 - Products, 
 - Profiles,
@@ -227,54 +221,7 @@ Having installed Django allauth, respective authentication, registration, accoun
  
 ## Wireframes
  
-### Desktop View:
- 
-- Home Page
- 
-![image]()
- 
-- All Products on offer through siopaFIA
- 
-![image](
- 
-- Product Detail Page
- 
-![image]()
- 
-- Shopping Bag Page
- 
-![image](
- 
-- Checkout Page
- 
-![image]()
- 
-Full desktop wireframes can be access [here]()
- 
-## Tablet and Mobile View:
- 
-- Home Page
- 
-![image]()
- 
-- All Products
- 
-![image]()
- 
-- Product Detail
- 
-![image]()
- 
-- Shopping Bag:
-![image]()
- 
-- Checkout:
- 
-![image]()
- 
-Full mobile and tablet wireframes can be access [here]()
- 
-#### [Back to Contents](#contents)
+see wireframes [here](https://github.com/markgordon22/Jerseys-for-tims/tree/main/wireframes)
  
 ## Surface
  
