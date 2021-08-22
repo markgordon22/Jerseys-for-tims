@@ -105,7 +105,7 @@ Primary functions of Siopa Fia:
 | Site Owner           | remove items                                                             | remove items that are no longer for sale                      ||
 | Site Owner           | view and manage users of Jerseys for Tims                                                            | keep track of new and existing users                      |
 | Site Owner           | Continually update/modify faqs so users won't have to wait for responses from Jerseys for Tims   on their concerns                                                        | to inform visitors to the site of concerns they could have                  |
-| Site Owner           | view users orders                                                    | to manage and keep an eye on users for research and spending patterns.                 |
+
  
 ---
  
@@ -489,6 +489,78 @@ They get asked to sign in and then they are redirected to the home page of the s
 ![image](userstories/non-registerreduserstory.png)
 
 Above there are buttons to login into the account or and to register. The user if they wish to can login/register to carry out their payment or should they please, pay for their goods as a guest.
+
+### Registered user stories
+
+"log in and out of my profile"
+
+Below the user can login by clicking the login link in the myaccount dropdown
+
+![image](userstories/loginlogoutuserstory.png)
+
+Then the user can safely logout once they wish to via the myaccount dropdown
+
+![image](userstories/loginlogout(2).png)
+
+"update my personal details"
+- The user can update there details in their designated profile below
+
+![image](userstories/profileupdateuserstory.png)
+
+"save my past purchases"
+- The user can see there past purchases in their profile
+
+![image](userstories/savepastpurchases.png)
+
+"store my choices in checkout"
+- The user can store there past purchases in the checkout and then revert back to the products page to look for other products should they wish to.
+
+![image](userstories/storechoicesincheckout.png)
+
+"Make safe and secure transactions/payments"
+- The user can make safe and secure payments. security was 100% a priority in building the site for payments and personal details.
+
+"to be sent confirmation by email of purchases"
+- The user will be sent a confirmation email of their order by email
+
+![image](userstories/emailuserstory.png)
+
+### Site owner user stories
+
+"add new items and category listings"
+- The site owner can new items to the site
+
+![image](userstories/additemuserstory.png)
+
+"update items"
+- Site owner can update items in th edit product page
+
+![image](userstories/edititem.png)
+
+"remove items"
+- Site owner can remove items from site with some defensive programming of a modal to ensure site owner is sure they want to delete the item from the site.
+
+![image](userstories/removeitem.png)
+
+"view and manage users of Jerseys for Tims"
+- User can revert to the site admin to manage and keep an eye on orders.
+
+![image](userstories/manageordersuserstory.png)
+
+"Continually update/modify faqs so users won't have to wait for responses from Jerseys for Tims on their concerns"
+- Site owner can modify site faqs
+
+![image](userstories/managefaq.png)
+
+
+
+
+
+
+
+
+
+
 
 
 
