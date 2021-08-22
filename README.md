@@ -24,7 +24,7 @@ Primary functions of Jerseys for Tims
        - [Business Logic](#business-logic)
        - [User Stories](#user-stories)
    - [Scope](#scope)
-       - [Existing Features](#current-features)
+       - [Existing Features](#existing-features)
            - [Base HTML](#base-html)
            - [Home Page](#home-page)
            - [All Products Page](#all-products-page)
@@ -149,62 +149,84 @@ The footer is displayed on every page. It contains quotes from famous celtic foo
  
 ### Home Page:
 Upon directing to the site, the user will receive a sense of what the Jerseys for Tims is about with css fade in texted slogan above the "Shop now!" fade in texted button. The hero image of Parkhead which is the home stadium for Celtic Football Club is which is dubbed "Paradise" by celtic supporters as it is the club they live and breath. It was selected to convey the message of "home" as it is the home stadium of celtic football club and the place where many fond memories have been made and will continue to be made, watching the football team they love. The main logo of the site reads "Jerseys for Tims" the word "tim" is a nickname for a celtic fc supporter. The shop button redirects the user to all 94 products the website has, where the user can see the products Jerseys for Tims sells.
+
+![image](uximages/homepageimg.png)
  
  
 ### All Products Page:
 Similar to Boutique Ado, the sample walkthrough project supplied to by Code Institute, I demonstrated similar design of displaying 4 products larger deviced pages, medium devices contained 3 products, smaller deviced contained 2 products, with extra small devices containing just one device. The product cards displays an image of the product along with its name, price, category. The user is abled to click an image where they are redirected to the product detail page where they can see further details and description of the product they selected and have the opportunity to add the product to their shopping bag. I decided to place in buttons with the text "quick view" to entice perhaps impulsive users into making them decide to buy a product for business and marketing purposes.
  
 As the product list could be large depending on the category of products selected by the user, I included a yellow scroll button which corresponds to the color scheme of the site so that the user can be brought back to the top of the page once scroll button is clicked.
+
+![image](uximages/productpageimg.png)
  
 ### Product Detail Page:
 Displaying a larger image and more detail information with a description on the product selected by the user, the user can select the item's size (depending on if the product has sizes), the quantity (within range of the site) they desire to purchase. The user can either click the "Keep Shopping" button at the bottom of the product details where they are redirected back to the all products page or they can add the product to their respective bag by clicking "Add to Bag" button to the right of the "keep shopping" button. The user gets informed they have selected the item with a toast success message from bootstrap which alerts them of the products they have in their bag, with how much (depending on the amount they've in their bag) more they will be required to spend in order to avail of the free delivery offer that is on offer by Jerseys for Tims.
 The edit and delete anchor links in the product card is only displayed on the superusers account of the site.
+
+![image](uximages/productdetailspageimg.png)
  
 ### Shopping Bag Page:
 This page is divided into 5 sections- a smaller image of the item,product name,SKU number, product price and the quantity box selector with respective remove and update links and the subtotal. Should the user want to modify contents of their bag, they can update their order on this page via the quantity selector box using the remove or update buttons. The grand total is shown, along with its delivery charge information (unless user has spent over the free delivery threshold) towards the bottom of the page. The user can also return to the all products page of the site by selecting "Keep Shopping" button, or if they are happy with their bag contents they can follow on with their purchase by selecting the  "Secure Checkout" button.
+
+![image](uximages/bagpageimg.png)
  
 ### Checkout Page:
  
 The checkout page includes forms such as user's name, details of billing and the payment form that is mandatory in order to complete the purchase. Below the credit card form they're yet again informed the total their card will get charged and can proceed to confirm payment or they if unsure of their payment can adjust their bag and return to the shopping bag page by clicking the "adjust bag" button:
  
-![image]()
+![image](uximages/checkoutpageimg.png)
  
 ### Checkout Success Page:
  
 Once the purchase is finalised and completed, a success message from bootstrap toasts appears with confirmation that the payment was successfull, along with details of the order number and a confirmation email will be sent to the user. The details of the user's order are shwon and a button redirecting to the "new-arrivals" category page is below:
  
-![image]()
+![image](uximages/checkoutsuccesspageimg.png)
  
 
 ### Contact Page
 
 The contact page is a simple form with 3 text and input and a textarea. The user once submitting the form will be redirected to the contact success page, along with a toast message that they're email was a success and will receive an email from Jerseys for Tims that they will be in contact with the user over the question or concern shortly.
+
+![image](uximages/contactpageimg.png)
  
 ### FAQs Page:
  
 Accessible by clicking "FAQS" from the navbar, the user is redirected to the faq app. There is a series of questions with answers on matters that the user may potentially now have or have in future references. Only the site admin can edit/delete faqs. user can also not manually enter the url for the edit/add faqs as they will get instaly get redirected to the sign in page. Some questions and answers were taken from [Your Clothing](https://www.yoursclothing.ie/faq?glCountry=IE&glCurrency=GBP)
 
+![image](uximages/faqpageimg.png)
+
 ### FAQ add page 
 
 Only accessible to the admin/superusers to add a faq that may be of a concern to a number of users to the site.
+
+![image](uximages/addfaqpageimg.png)
 
 ## FAQ edit page
 
 Editing of a faq is carried out here so that the admin/superuser can edit or delete a faq.
 
+![image](uximages/editfaqpageimg.png)
+
 ### Profile Page:
  
 This Profile is reachable only to a registered user that is logged in where the user can track their own individual purchases and payments and modify their personal information. Divided into two sections, the first shows the default delivery information of that user and the second section depicts the past orders of that user along with its cost,order number, items bought and the date the payment for the order that was made.
+
+![image](uximages/profilepageimg.png)
 
  
 ### Product Management Page
  
 Accessible only to site admin or superusers, once logged in they can select "My Account" (dropdown in the navbar) on large and small devices, and from there select Product Management. From here, they can add any new product that fits into one of the categories.
+
+![image](uximages/addproductpageimg.png)
  
 
 ### Edit product page
 
 Only accessible to admin and superusers. Editing of products can be achieved here such as its price or rating.
+
+![image](uximages/editproductpageimg.png)
  
 ### Features Left To Implement
 - None.
@@ -246,17 +268,17 @@ see wireframes [here](https://github.com/markgordon22/Jerseys-for-tims/tree/main
  
 ### Design
 -  #### Colour Scheme
-   The color of the site adopted a yellow(#ffc107), a lightgrey(#343A40) and white(#ffffff)due to being a attractive array of colors. A decision was made at the start to not use green as a dominant color despite celtic fc that actually play in green kits. My thought though however was since the majority of the jerseys will be green, I refuted the idea of incorporating green into the foundation of the website make up to prevent green overflow.[Color-Hex:](https://coolors.co/)
+   The color of the site adopted a yellow(#ffc107), a lightgrey(#343A40) and white(#ffffff)due to being a attractive array of colors. A decision was made at the start to not use green as a dominant color despite celtic fc that actually play in green kits. My thought though however was since the majority of the jerseys will be green, I refuted the idea of incorporating green into the foundation of the website make up to prevent green overflow.[Color-Hex:](https://coolors.co/). I decided to give the contact page an antique-white background as the form was the only material in the block content so it look very light on content and unattractive to the user since the whole block content was nearly completley white excluding the heading and buttons.
  
    ![image](uximages/coolors.png)
  
 ### Typography
 The font used for the site was [Noto Sans TC
-](https://fonts.google.com/specimen/Noto+Sans+TC). A very clear, concise and readable font family from [google fonts](https://fonts.google.com/)
+](https://fonts.google.com/specimen/Noto+Sans+TC). A very clear, concise and readable font family from [google fonts](https://fonts.google.com/). Sans serif was used as the back up font in the case that Noto Sans TC did not work.
  
 ### Imagery
 
-Images for the site were compiled from google images.
+Images for the site were taken from google images.
  
 ### Icons
 The icons used throughout the site are taken from [Font Awesome](https://fontawesome.com/). Particularly for social media icons.
