@@ -948,21 +948,23 @@ Run your own app with:
 ### **Credits**
  
 **Code:**
-- The walkthrough project in the Full Stack Frameworks with Django Module, Boutique Ado, was the primary source and guide when it came to building Jerseys for Tims. This was a template for me to build my own faq and contact apps.
+- The walkthrough project in the Full Stack Frameworks with Django Module, Boutique Ado, this was core template to get the javascript working correctly for the site as well as the views in the backend. It was the primary source and guide when it came to building Jerseys for Tims. This was a template for me to build my own faq and contact apps.
+
 - For the contact app I followed [Twilio](https://www.twilio.com/blog/build-contact-form-python-django-twilio-sendgrid)
 - To render the scroll back to top arrow on the about page and products pages I used code from [W3 schools](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp)
 - [Bootstrap](https://getbootstrap.com/docs/5.0/forms/layout/) used to make footer, navbar, cards, toasts, cards images and buttons.
 - [Stackoverflow](https://stackoverflow.com/questions/55227106/css-animation-text-sliding-left-to-right) for help on how to make the scroll text animation on the delivery banner
-- [Stackoverflow](https://stackoverflow.com/questions/29211115/adding-link-to-the-admin-index-page-in-django) on adding the Django admin index url
 - [Django Docs](https://django-book.readthedocs.io/en/latest/chapter14.html) was a guide used to look over elements such as django imports, models and admin panels.
-- [Structure for this Readme](https://github.com/elerel/ms4-siopa-fia)
+- Credit to the [Structure for this Readme](https://github.com/elerel/ms4-siopa-fia)
  
 **Content:**
 - [Yours Clothing](https://www.yoursclothing.ie/faq?glCountry=IE&glCurrency=GBP) was used to generate some sample faqs.
-- All jerseys descriptions were written by me as Ive grown up watching celtic and knowing the different jerseys used     over  the past years
+- All jerseys descriptions were written by me as Ive grown up watching celtic and knowing the different jerseys used over the past years and the players that have worn them.
  
 **Media:**
 - All images were taken from Google imagess
+
+
 
 ### **Disclaimer**
 All content on this site is for educational purposes solely.
