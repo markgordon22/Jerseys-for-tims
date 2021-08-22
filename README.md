@@ -635,6 +635,28 @@ Once clicked will correctly lead the user to their individual bag with their ite
 Payments have been tested and user will be successfully redirected back to the checkout success page with a receipt of their purchase.
 The payments were carried out with stripe with code courtesy of boutique ado.
 
+--- Email to confirm proof of identity upon registering an account -- 
+
+The user once registering an account will be redirected to a page that gets them to go to their email and confirm their identity. Once this has been done, then the user is free to roam the site.
+
+I used a fake email address from [temp.org](https://temp-mail.org/en/view/6121e4bd814d68007593ab80) to test this.
+
+![image](testing/tempmail1.png)
+
+Once successfully passed registration the user will be asked to go too their email to confirm their identity.
+
+![image](testing/tempmail2.png)
+
+Then the user can simpy click to confirm in their email
+
+![image](testing/tempmail3.png)
+
+Then the user can confirm by clicking confirm on the site.
+
+![image](testing/tempmail4.png)
+
+the user has now registered an account
+
 ---social media links--
 
 links users to the social media platforms to the company
@@ -648,6 +670,8 @@ links users to the social media platforms to the company
 - linkedinn
 
 - Twitter
+
+All social media links work accordingly.
 
 ## Crud testing
 
