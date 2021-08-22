@@ -689,6 +689,25 @@ The site owner once sure they want to delete the faq can click delete and the fa
 
 ![image](userstories/editfaq3.png)
 
+## Test stripe payments
+
+In order to make sure the Stripe payments were operating as per intended, I had to make sure the test webhooks were working, I had to make sure the correct endpoint was added:
+
+----https://jerseys-for-tims.herokuapp.com/checkout/wh/----
+
+Testing for stripe webhook success involved the respective url, email confirmation and image receipt on the checkout success page.
+
+Payment was a success
+
+![image](userstories/teststripe1.png)
+
+Email receipt
+
+![image](userstories/teststripe2.png)
+
+Webhook success
+
+![image](userstories/teststripe3.png)
 
 
 
@@ -700,37 +719,6 @@ The site owner once sure they want to delete the faq can click delete and the fa
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
----
- 
 # **Deployment**
  
 ## **Heroku Deployment with AWS**
