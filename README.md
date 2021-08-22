@@ -5,14 +5,14 @@ View the live project [here.](https://jerseys-for-tims.herokuapp.com/)
 Jerseys for Tims was my final milestone project as part of the Code Institute's Software Development Diploma. This project is intended to be a full-stack e-commerce site, with the use Python, Django, based on a fictional online Irish celtic jersey website (Jerseys for Tims) which sells celtic jerseys over the previous 4 decades(home and away), home merchandise with deals and special offeres. Users of the site can search products available. Read FAQS of the site posted by the owner, register an account to keep track of purchases. Jerseys for Tims, ultimately is a store where users can find their favorite celtic jerseys and merchandise that promotes celtic football club, for people who love and follow their team like it is a religon.
  
  
-The rationale behind making Jerseys for Tims was my love for celtic football club. Jerseys for Tims was made to reflect  every valuable takeaway studied from the [Code Institute's Full Stack Diploma in Web Development](https://codeinstitute.net/) course, maintaining a MVP approach to the site whilst creating a fully-functioning e-commerce site.
+The rationale behind making Jerseys for Tims was my love for celtic football club. Jerseys for Tims was made to reflect  every valuable takeaway studied from the [Code Institute's Full Stack Diploma in Web Development](https://codeinstitute.net/) course.
  
  
 Primary functions of Jerseys for Tims
-- Product purchase functionality
-- User authentication and authorisation
-- Customer profile page which will contain purchase history and store customer details
-- All CRUD functionalities
+- Product purchase functionality in bag and checkou apps
+- authentication,authorisation for users to the site
+- Consumer profile pagethat will contain purchase history and act as a storage unit for customer details
+- Create Read, update and delete functionality(CRUD)
  
  
 ---
@@ -67,10 +67,10 @@ Primary functions of Jerseys for Tims
  
 ### Business Logic
  
-- For the site to be easyily navigated, create positive ux's for the user
+- For the site to be easily navigated, create positive ux's for the user
 - To add, edit or delete products available(crud functionality)
 - To encourage the user to understand the story behind Jerseys for Tims
-- To promote awareness of Jerseys for Tims to boost brand awareness to become the top celtic provider for celtic fans.
+- To promote awareness of Jerseys for Tims to boost brand awareness and loyalty and to become the top celtic jersey provider for celtic fans.
  
 ### User Stories
  
@@ -120,7 +120,7 @@ Seen across all pages of site
  
 ### Navbar
  
-The navbar for Jerseys for Tims includes separate designs - one for mobile and tablet devices and the other design for larger devices such as desktop. Simarliy, in the walkthrough project, Boutique Ado supplied by Code Institute, for smaller devices I incorporated Bootstrap's [collapsible toggler](https://getbootstrap.com/docs/4.1/components/navbar/#external-content), the user to the site can be redirected to the main componenents in a drop-down view. The items in the dropdown menu are identical to the ones in the navbar on desktop view. The company logo is present to be a link to the home page of the aswell as the home link on the top of the dropdown list via the hamburger icon from bootstrap. There is also a search icon and a My Account link, where users of the site can register, sign in or view their profile. The user can always view their current spending by the bag displaying the total amount of the items purchased which is posible to view on every page of Jerseys for Tims
+The navbar for Jerseys for Tims includes separate designs - one for mobile and tablet devices and the other design for larger devices such as desktop. Simarliy, in the walkthrough project, Boutique Ado supplied by Code Institute, for smaller devices I incorporated Bootstrap's [collapsible toggler](https://getbootstrap.com/docs/4.1/components/navbar/#external-content), the user to the site can be redirected to the main componenents in a drop-down view. The items in the dropdown menu are identical to the ones in the navbar on desktop view. The company logo is present to be a link to the home page aswell as the home link on the top of the dropdown list via the hamburger icon from bootstrap. There is also a search icon and a My Account link, where users of the site can register, sign in or view their profile. The user can always view their current spending by the bag displaying the total amount of the items purchased which is posible to view on every page of Jerseys for Tims
 
 Navbar
 ![image](uximages/navbar.png)
@@ -137,7 +137,7 @@ Throughout the site, users will see the free delivery offer on spending anything
 ![image](uximages/deliverybanner.png)
  
 ### Messages (Toasts)
-  Toasts were used so users are aware of important site interactions, such as items being added to their bag, signing up to the newsletter/confirmation, logging in to their profile etc. I imported 'messages' from Django's 'django-contrib' the messages displayed included (error, success, warning, info) are in [Bootstrap's Toast](https://getbootstrap.com/docs/5.0/components/toasts/) format:
+  Toasts were used so users are aware of important site interactions, such as items being added to their bag or logging in to their profile etc. I imported 'messages' from Django's 'django-contrib' the messages displayed included (error, success, warning, info) are in [Bootstrap's Toast](https://getbootstrap.com/docs/5.0/components/toasts/) format:
  
  Here is the success message which is apparent throughout the site.
 ![image](uximages/toast.png)
@@ -148,20 +148,20 @@ The footer is displayed on every page. It contains quotes from famous celtic foo
 ![image](uximages/footer.png)
  
 ### Home Page:
-Upon directing to the site, the user will receive a sense of what the Jerseys for Tims is about with css fade in texted slogan above the "Shop now!" fade in texted button. The hero image of Parkhead which is the home stadium for Celtic Football Club is which is dubbed "Paradise" by celtic supporters as it is the club they live and breath. It was selected to convey the message of "home" as it is the home stadium of celtic football club and the place where many fond memories have been made and will continue to be made, watching the football team they love. The main logo of the site reads "Jerseys for Tims" the word "tim" is a nickname for a celtic fc supporter. The shop button redirects the user to all 94 products the website has, where the user can see the products Jerseys for Tims sells.
+Upon directing to the site, the user will receive a sense of what the Jerseys for Tims is about with css fade in texted slogan above the "Shop now!" and the fade in button below it. The hero image of Parkhead which is the home stadium for Celtic Football Club is dubbed "Paradise" by celtic supporters as it is the club they live and breath. It was selected to convey the message of "home" as it is the home stadium of celtic football club and the place where many fond memories have been made and will continue to be made, watching the football team they love. The main logo of the site reads "Jerseys for Tims" the word "tim" is a nickname for a celtic fc supporter. The shop button redirects the user to all 93 products the website has, where the user can see the products Jerseys for Tims sells.
 
 ![image](uximages/homepageimg.png)
  
  
 ### All Products Page:
-Similar to Boutique Ado, the sample walkthrough project supplied to by Code Institute, I demonstrated similar design of displaying 4 products larger deviced pages, medium devices contained 3 products, smaller deviced contained 2 products, with extra small devices containing just one device. The product cards displays an image of the product along with its name, price, category. The user is abled to click an image where they are redirected to the product detail page where they can see further details and description of the product they selected and have the opportunity to add the product to their shopping bag. I decided to place in buttons with the text "quick view" to entice perhaps impulsive users into making them decide to buy a product for business and marketing purposes.
+Similar to Boutique Ado, the sample walkthrough project supplied to by Code Institute, I demonstrated similar design of displaying 4 products on larger deviced pages, medium devices contained 3 products, smaller deviced contained 2 products, with extra small devices containing just one product per row. The product cards displays an image of the product along with its name, price, category. The user is able to click an image where they are redirected to the product detail page where they can see further details and description of the product they selected and have the opportunity to add the product to their shopping bag. I decided to place in buttons with the text "quick view" to entice perhaps impulsive users into making them decide to buy a product for business and marketing purposes.
  
-As the product list could be large depending on the category of products selected by the user, I included a yellow scroll button which corresponds to the color scheme of the site so that the user can be brought back to the top of the page once scroll button is clicked.
+As the product list could be large depending on the category of products selected by the user, I included a yellow scroll button which corresponds to the color scheme of the site so that the user can be brought back to the top of the page once scroll button is clicked. This is from w3 schools and is credited in the readme.
 
 ![image](uximages/productpageimg.png)
  
 ### Product Detail Page:
-Displaying a larger image and more detail information with a description on the product selected by the user, the user can select the item's size (depending on if the product has sizes), the quantity (within range of the site) they desire to purchase. The user can either click the "Keep Shopping" button at the bottom of the product details where they are redirected back to the all products page or they can add the product to their respective bag by clicking "Add to Bag" button to the right of the "keep shopping" button. The user gets informed they have selected the item with a toast success message from bootstrap which alerts them of the products they have in their bag, with how much (depending on the amount they've in their bag) more they will be required to spend in order to avail of the free delivery offer that is on offer by Jerseys for Tims.
+Displaying a larger image and more detailed information with a description on the product selected by the user, the user can select the item's size (depending on if the product has sizes), the quantity (within range of the site) they desire to purchase. The user can either click the "Keep Shopping" button at the bottom of the product details where they are redirected back to the all products page or they can add the product to their respective bag by clicking "Add to Bag" button to the right of the "keep shopping" button. The user gets informed they have selected the item with a toast success message from bootstrap which alerts them of the products they have in their bag, with how much (depending on the amount they've in their bag) more they will be required to spend in order to avail of the free delivery offer that is on offer at Jerseys for Tims.
 The edit and delete anchor links in the product card is only displayed on the superusers account of the site.
 
 ![image](uximages/productdetailspageimg.png)
@@ -173,26 +173,26 @@ This page is divided into 5 sections- a smaller image of the item,product name,S
  
 ### Checkout Page:
  
-The checkout page includes forms such as user's name, details of billing and the payment form that is mandatory in order to complete the purchase. Below the credit card form they're yet again informed the total their card will get charged and can proceed to confirm payment or they if unsure of their payment can adjust their bag and return to the shopping bag page by clicking the "adjust bag" button:
+The checkout page includes forms such as user's name, details of billing and the payment form that is mandatory in order to complete the purchase. Below the credit card form they're yet again informed the total their card will get charged and can proceed to confirm payment or theyare unsure of their payment, they can adjust their bag and return to the shopping bag page by clicking the "adjust bag" button:
  
 ![image](uximages/checkoutpageimg.png)
  
 ### Checkout Success Page:
  
-Once the purchase is finalised and completed, a success message from bootstrap toasts appears with confirmation that the payment was successfull, along with details of the order number and a confirmation email will be sent to the user. The details of the user's order are shwon and a button redirecting to the "new-arrivals" category page is below:
+Once the purchase is finalised and completed, a success message from bootstrap toasts appears with confirmation that the payment was successfull, along with details of the order number and a confirmation email will be sent to the user. The details of the user's order are shown and a button redirecting to the "new-arrivals" category page is below:
  
 ![image](uximages/checkoutsuccesspageimg.png)
  
 
 ### Contact Page
 
-The contact page is a simple form with 3 text and input and a textarea. The user once submitting the form will be redirected to the contact success page, along with a toast message that they're email was a success and will receive an email from Jerseys for Tims that they will be in contact with the user over the question or concern shortly.
+The contact page is a simple form with 3 text and input and a textarea. The user once submitting the form will be redirected to the contact success page, along with a toast message that they're email was a success and will receive an email from Jerseys for Tims that they will be in contact with the user over their question or concern shortly.
 
 ![image](uximages/contactpageimg.png)
  
 ### FAQs Page:
  
-Accessible by clicking "FAQS" from the navbar, the user is redirected to the faq app. There is a series of questions with answers on matters that the user may potentially now have or have in future references. Only the site admin can edit/delete faqs. user can also not manually enter the url for the edit/add faqs as they will get instaly get redirected to the sign in page. Some questions and answers were taken from [Your Clothing](https://www.yoursclothing.ie/faq?glCountry=IE&glCurrency=GBP)
+Accessible by clicking "FAQS" from the navbar, the user is redirected to the faq app. There is a series of questions with answers on matters that the user may potentially now have or have in future references. Only the site admin can add/edit/delete faqs. user can also not manually enter the url for the edit/add faqs as they will get instantly get redirected to the sign in page. Some questions and answers were taken from [Your Clothing](https://www.yoursclothing.ie/faq?glCountry=IE&glCurrency=GBP)
 
 ![image](uximages/faqpageimg.png)
 
@@ -243,7 +243,7 @@ Only accessible to admin and superusers. Editing of products can be achieved her
 - About,
 - FAQ.
 
-Having installed Django allauth, respective authentication, registration, account management with bootstrap responsive elements such as toasts, navbar, buttons, links, the pathway to payment for the user was a simple one.
+Having installed Django allauth, respective authentication, registration, account management with bootstrap responsive elements such as toasts, navbar, buttons, links, the pathway to payment for the user was a far less daunting task.
  
 ## Information Architecture
  
@@ -253,8 +253,8 @@ Having installed Django allauth, respective authentication, registration, accoun
  
 ### Data Modelling
  
-- All data related to Products was compiled in a JSON format and is stored in a fixtures folder, as does the FAQ data in its own fixtures folder.
-- The Data Model below was created using [drawSQL]():
+- All data related to Products was compiled in a JSON format and is stored in a fixtures folder
+- The Data Model below was created using [drawSQL](https://drawsql.app/):
  
 ![image](uximages/datamodel.png)
  
@@ -268,7 +268,7 @@ see wireframes [here](https://github.com/markgordon22/Jerseys-for-tims/tree/main
  
 ### Design
 -  #### Colour Scheme
-   The color of the site adopted a yellow(#ffc107), a lightgrey(#343A40) and white(#ffffff)due to being a attractive array of colors. A decision was made at the start to not use green as a dominant color despite celtic fc that actually play in green kits. My thought though however was since the majority of the jerseys will be green, I refuted the idea of incorporating green into the foundation of the website make up to prevent green overflow.[Color-Hex:](https://coolors.co/). I decided to give the contact page an antique-white background as the form was the only material in the block content so it look very light on content and unattractive to the user since the whole block content was nearly completley white excluding the heading and buttons.
+   The color of the site adopted yellow(#ffc107), a lightgrey(#343A40) and white(#ffffff)due to being a attractive array of colors. A decision was made at the start to not use green as a dominant color despite celtic fc that actually play in green kits. My thought though however was since the majority of the jerseys will be green, I turned my back on the idea of incorporating green into the foundation of the website make up to prevent green overflow.[Color-Hex:](https://coolors.co/). I decided to give the contact page and faq page an antique-white background as the form was the only material in the block content so it look very light on content and unattractive since the whole block content was nearly completley white excluding the heading and buttons.
  
    ![image](uximages/coolors.png)
  
@@ -366,7 +366,7 @@ Getting the site responsive on smaller devices was a challenge, although the res
 
 ## Lighthouse Testing
 
-Click [here](https://github.com/markgordon22/Jerseys-for-tims/tree/main/testing) for lighthouse test results. Only noticeable cause for concern is the products page on mobile.
+Click [here](https://github.com/markgordon22/Jerseys-for-tims/tree/main/testing) for lighthouse test results. The only noticeable cause for concern is the products page on mobile.
 
 
 ## Compatability Testing
@@ -382,21 +382,21 @@ Click [here](https://github.com/markgordon22/Jerseys-for-tims/tree/main/testing)
 
 Bugs encountered throughout production.
 
-1. Webhook handlers were an issue throughout production. A series of 400 and 404 errors. With the help of tutor support and the respective documentation given to us to handle such an error this became not a cause for concern.
+1. Webhook handlers were an issue throughout production. A series of 400 and 404 errors. With the help of tutor support and the respective documentation given to us to handle such an error this became not a cause for concern anymore.
 
 2. Mobile top header icons were down below the nav toggler and thus demonstrated poor ux. With the help of bootstrap p-0 class there was room for all 3 icons to sit neatly beside the nav toggler and give a better ux.
 
 3. Nav toggler wouldnt turn a white background color. This was a major bug that I kept with me throughout production only to read that the bg-dark bootstrap class was residing. I simply removed the bg-dark class and the nav toggler gave a nice white background color.
 
-4. I thought that I had removed accidentally my category and products models in the admin when gitpod workspaces had shut down for some time(I had not commited the models). It turned I commented out the local database url. I uncommented the local dj_database_url and my models were displaying once more.
+4. I thought that I had removed accidentally my category and products models in the admin when gitpod workspaces had shut down for some time(I had not commited the models). It turned I commented out the local_database_url. I uncommented the local dj_database_url and my models were displaying once more.
 
-5. Bootstrap gutters were an issue throughout production. As this applicale when working with bootstrap. I inserted the container class to wrap the row class and this successfully removed the bug.
+5. Bootstrap gutters were an issue throughout production. As this applicable when working with bootstrap. I inserted the container class to wrap the row class and this successfully removed the bug.
 
-6. Aws bucket once rendering in the applucation was giving me incorrect urls to product images. By accident I inserted a another into the media folder in the bucket rather than copying and pasting the images I wanted for the site. Once I spotted redid the bucket and copied only the files I wanted to render on the site.
+6. Aws bucket once rendering in the application was giving me incorrect urls to product images. By accident I inserted another folder into the media folder in the bucket rather than copying and pasting the images I wanted for the site. Once I spotted thid mistake I redid the bucket and copied only the files I wanted to render on the site.
 
 7. A regular occurence was the unsuccessful form submissions in production. This was quite apparrent as I was inserting incorrect variables into the urls to passed into the views on the backend. To handle this, I took extra precaution when building my urls to be passed through into the views.
 
-8. Confirmation emails were not being sent to the user once they had made a purchase. With help from Michael at tutor he saw that my stripe webhook in the heroku configs was not corresponding to the webhook in my stripe account. Once the stripe webhooks matched this bug became a thing of the past and confirmation emails were being successfully sent once a user made a purchase.
+8. Confirmation emails were not being sent to the user once they had made a purchase. With help from Michael at tutor support he saw that my stripe webhook in the heroku configs was not corresponding to the webhook in my stripe account. Once the stripe webhooks matched this bug became a thing of the past and confirmation emails were being successfully sent once a user made a purchase.
 
 ## Validation
 
@@ -422,14 +422,14 @@ Pep 8
 
 ![image](testing/pepvalidator.png)
 ![image](testing/pep2.png)
-Many originally errors were shown in views.py files with lines containing over 80 characters. However, these were removed.
+No errors in views. py
 
 ## Test user stories
 
 ### First time user stories
 
 "easily navigate around Jerseys for Tims"
-- With the use of the navlinks, nav toggler it is simple to be bale to navigate around the site and look at items.
+- With the use of the navlinks, nav toggler it is simple to be able to navigate around the site and look at items.
 
 "view the site on multiple screen devices and sizes"
 - The site has been tested on multiple devices on dev tools so this allows users to the site to view our site on their phone, tablet or desktop devices.
@@ -443,13 +443,13 @@ Many originally errors were shown in views.py files with lines containing over 8
 
 
 "see product details/info"
-- Once the user clicks on a product that they like on the products page, they can click the product image or the quick view button and thye will be redirected to the product details page.
+- Once the user clicks on a product that they like on the products page, they can click the product image or the quick view button and they will be redirected to the product details page.
 
 ![image](userstories/userstory3.png)
 
 
 "read company description and the story behind it"
-- The user can read baout the company, their operations and the people behing Jerseys for Tims
+- The user can read about the company, their operations and the people behing Jerseys for Tims
 
 ![image](userstories/companyuserstory.png)
 
@@ -496,7 +496,7 @@ When the user successfully registers they get brought to this page.
 
 ![image](userstories/register(2)userstory.png)
 
-Once they confirm their email address they then get brough to this page.
+Once they confirm their email address they then get brought to this page.
 
 ![image](userstories/register(3).png)
 
@@ -550,12 +550,12 @@ Then the user can safely logout once they wish to via the myaccount dropdown
 ### Site owner user stories
 
 "add new items and category listings"
-- The site owner can new items to the site
+- The site owner can add new items to the site
 
 ![image](userstories/additemuserstory.png)
 
 "update items"
-- Site owner can update items in th edit product page
+- Site owner can update items in the edit product page
 
 ![image](userstories/edititem.png)
 
@@ -565,12 +565,12 @@ Then the user can safely logout once they wish to via the myaccount dropdown
 ![image](userstories/removeitem.png)
 
 "view and manage users of Jerseys for Tims"
-- User can revert to the site admin to manage and keep an eye on orders.
+- site owner can revert to the site admin to manage and keep an eye on orders.
 
 ![image](userstories/manageordersuserstory.png)
 
 "Continually update/modify faqs so users won't have to wait for responses from Jerseys for Tims on their concerns"
-- Site owner can modify site faqs
+- Site owner can modify site faqs only as displayed here2
 
 ![image](userstories/managefaq.png)
 
@@ -600,7 +600,7 @@ Page renders all model content. Buttons are successfully only displaying on the 
 
 Product detail page
 
-Displaying all content of buttons, product description and edit and delete buttons for site owner in case they want to remove/update the item. All base template fetures are working correctly.
+Displaying all content of buttons, product description and edit and delete buttons for site owner in case they want to remove/update the item. All base template features are working correctly.
 
 Register page
 
@@ -860,9 +860,9 @@ so that Heroku will not try to collect static files.
 ```
 ALLOWED_HOSTS = ['.herokuapp.com', 'localhost']
 ```
-to settings.py.
+to settings .py.
  
-20. Addition of Stripe env variables to settings.py.
+20. Addition of Stripe env variables to settings .py.
  
 21. Finally, push to Heroku using the:
 ```
@@ -956,7 +956,7 @@ pip install -r requirements.txt
  
 ```
  
-After you have endured the releavnt required package are installed you should then
+After you have endured the relevant required package are installed you should then
  
 Make migrations with
 ```
@@ -969,7 +969,7 @@ python3 manage.py migrate
  
 ```
  
-Load the fixtures from the 'products.json' and 'faq.json' files - which are contained in the 'fixtures' folder into the database.
+Load the fixtures from the 'products.json' - which are contained in the 'fixtures' folder into the database.
 This is done by using the following command:
 ```
    python3 manage.py loaddata <file name>
