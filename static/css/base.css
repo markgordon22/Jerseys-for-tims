@@ -12,13 +12,14 @@ margin: 0;
 padding: 0;
 }
 
+/* home page hero image */
 .index-page {
 background: url('/media/celticparkhead.jpg') no-repeat center center fixed;
 background-size: cover;
 height: 100vh;
 }
 
-
+/* -- navbar -- */
 div#topnav{
 height: 100px;
 background-color:#343A40
@@ -28,6 +29,7 @@ nav.navbar.navbar-expand-lg{
 background-color:#343A40;
 }
 
+/* -- delivery banner -- */
 .bg{
 display: block;
 margin: auto;
@@ -36,13 +38,14 @@ color: #000000;
 font-size: 10px;
 }
 
+/* -- delivery banner heading -- */
 h4.free-delivery-logo.logo-font{
 color: #000000;
 text-align: center;
 padding-top: 5px;
-
 }
 
+/* -- home page welcome container -- */
 .home-page-container{
 color: white;
 margin-top: 60px;
@@ -53,15 +56,18 @@ margin-bottom: 5px;
 text-align: center;
 }
 
+/* text content in welcome container -- */
 div.home-page-container.col-sm-6.fade-in-text{
 border-radius: 5px;
 text-align: center;
 }
 
+/* shop now button on home page -- */
 a.shop-button.btn.btn-lg.rounded-0.center-align{
 background-color: white;
 color: #000000
 }
+
 
 a.shop-button.btn.btn-lg.rounded-0.center-align:hover{
 background-color: #000000;
@@ -70,6 +76,7 @@ transform: scale(1.01);
 }
 
 
+/* -- icons in navbar -- */
 .my-account,
 .my-account-icon,
 .shopping-bag-icon,
@@ -84,6 +91,7 @@ color: #ffffff;
 font-size: 15px;
 }
 
+/* -- page heading on home page -- */
 .logo-font{
 text-align: left;
 color: #ffffff;
@@ -102,6 +110,7 @@ border: 10px solid #ffffff;
 height: 39px;
 }
 
+/* search button beside input element -- */
 button.form-control.btn.btn-black.border.rounded-0{
 background-color: #000000;
 color: #ffffff;
@@ -118,6 +127,7 @@ background-color: #ffc107
 padding-top: 150px;
 }
 
+/* code taken from stackoverflow */
 .fade-in-text{
     animation: fadeIn linear 5s;
     -webkit-animation: fadeIn linear 5s;
@@ -162,13 +172,14 @@ padding-top: 150px;
       transform:translateX(0);
     }
   }
-
+ 
+  /* -- about page hero image -- */
   .about-page-image{
     background: url('https://jerseys-for-tims.s3.eu-west-1.amazonaws.com/media/aboutpageimg.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 1000px;
   }
-
+  /* -- bootstrap image cards of founders --*/
   img.card-img-top{
   height: 300px;
   border-radius: 10px;
@@ -182,6 +193,7 @@ padding-top: 150px;
     border: 1px solid #343A40;
     }
 
+  /* -- product detail image -- */
   img.card-img-top.img-fluid.product-detail-img{
   height: 380px;
   }
@@ -191,6 +203,7 @@ padding-top: 150px;
 
 }
 
+/* -- about page text content of founders -- */
 .founder-text,
 .founder-title,
 .background-paragraph,
@@ -198,6 +211,7 @@ padding-top: 150px;
 color: #343A40;
 }
 
+/* -- back to top scroll button from w3 schools - credited in README.md -- */
 #myBtn {
   display: none;
   position: fixed;
@@ -232,7 +246,7 @@ color: #ffffff;
 }
 
 
-
+/* -- from boutique ado walkthrough -- */
 .overlay {
 	height: 100%;
 	width: 100%;
@@ -247,7 +261,7 @@ img.card-img-top.img-fluid.product-detail-img.mb-5{
 height: 450px;
 }
 
-
+/* -- from boutique ado walkthrough project -- */
 a.category-badge > span.badge{
   background-color: #ffffff !important;
   color: #343A40 !important;
@@ -266,10 +280,12 @@ color: #343A40;
 border-radius: 2px;
 }
 
+/* -- else block on shopping bag page -- */
 .bag-empty-text{
 letter-spacing: 1px;
 }
 
+/* view product link to product page on shopping bag page -- */
 a.view-product-link{
 border: 1px solid #343A40;
 background-color:#343A40;
@@ -291,11 +307,13 @@ a.view-product-link:hover{
   transform:scale(1.02)
   }
 
+/* -- products header on products page -- */
 .products-home-text{
 color: #343A40;
 font-size: large
 }
 
+/* -- quick view button too product details page -- */
 a.btn.btn-outline-secondary.rounded-0.quick-view{
 background-color: #343A40;
 color: #ffc107;
@@ -327,6 +345,7 @@ a.btn.btn-outline-secondary.rounded-0:hover{
   letter-spacing: 1px;
 }
 
+/* -- keep shopping button -- */
 a.btn.btn-outline-secondary.mt-3.rounded-0.keep-shopping{
   background-color: #343A40;
   color: #ffc107;
@@ -348,6 +367,7 @@ transform:scale(1.02);
 letter-spacing: 1px;
 }
 
+/* -- container on faq page -- */
 .container-faq{
 height: 800px;
 }
@@ -356,6 +376,7 @@ height: 800px;
 height: 200px;
 }
 
+/* -- increment button on bag page -- */
 button.increment-qty.btn.btn-black.rounded-0{
 border: 1px solid #000000;
 background-color: #343A40;
@@ -375,6 +396,7 @@ button.increment-qty.btn.btn-black.rounded-0:hover{
   background-color: #ffc107;
   }
 
+  /* -- update and delete links on product details page -- */
 a.update-link.text-info.update-qty-btn.text-white,
 a.remove-item.text-danger.remove-qty-btn.text-white.float-right{
 cursor: pointer;
@@ -466,17 +488,20 @@ a.btn.btn-outline-secondary.rounded-0.toast-btn.mt-3.p-2.btn-block:hover{
   transform: scale(1.02);
 }
 
+/* -- sort selector box -- */
 #sort-selector.custom-select.custom-select-sm.rounded-0.border-black{
 height: 45px;
 background-color:#6c757d;
 color: #ffff;
 }
 
+/* -- all-auth bg img -- */
 .all-auth-img{
   background: url('/media/all-auth-bg-img.png') no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
 }
+
 label.requiredField{
 color: #ffffff;
 }
@@ -519,7 +544,7 @@ display: inline-block;
   /* standard bootstrap btn transitions */
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
-
+/* -- all auth code -- */
 .allauth-form-inner-content button:hover,
 .allauth-form-inner-content input[type='submit']:hover {	
 color: #343A40;
@@ -587,6 +612,7 @@ margin-bottom: 5px;
   cursor: pointer;
 }
 
+/* -- from boutique ado walkthrough project -- */
 .custom-checkbox .custom-control-label::before {
   border-radius: 0;
   border-color: #dc3545;
@@ -601,26 +627,3 @@ margin-bottom: 5px;
 a.text-danger.btn.btn-outline-secondary.rounded-0{
 cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
