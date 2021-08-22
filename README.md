@@ -356,6 +356,25 @@ Click [here](https://github.com/markgordon22/Jerseys-for-tims/tree/main/testing)
 
 
 
+## Bugs
+
+Bugs encountered throughout production.
+
+1. Webhook handlers were an issue throughout production. A series of 400 and 404 errors. With the help of tutor support and the respective documentation given to us to handle such an error this became not a cause for concern.
+
+2. Mobile top header icons were down below the nav toggler and thus demonstrated poor ux. With the help of bootstrap p-0 class there was room for all 3 icons to sit neatly beside the nav toggler and give a better ux.
+
+3. Nav toggler wouldnt turn a white background color. This was a major bug that I kept with me throughout production only to read that the bg-dark bootstrap class was residing. I simply removed the bg-dark class and the nav toggler gave a nice white background color.
+
+4. I thought that I had removed accidentally my category and products models in the admin when gitpod workspaces had shut down for some time(I had not commited the models). It turned I commented out the local database url. I uncommented the local dj_database_url and my models were displaying once more.
+
+5. Bootstrap gutters were an issue throughout production. As this applicale when working with bootstrap. I inserted the container class to wrap the row class and this successfully removed the bug.
+
+6. Aws bucket once rendering in the applucation was giving me incorrect urls to product images. By accident I inserted a another into the media folder in the bucket rather than copying and pasting the images I wanted for the site. Once I spotted redid the bucket and copied only the files I wanted to render on the site.
+
+7. A regular occurence was the unsuccessful form submissions in production. This was quite apparrent as I was inserting incorrect variables into the urls to passed into the views on the backend. To handle this, I took extra precaution when building my urls to be passed through into the views.
+
+8. Confirmation emails were not being sent to the user once they had made a purchase. With help from Michael at tutor he saw that my stripe webhook in the heroku configs was not corresponding to the webhook in my stripe account. Once the stripe webhooks matched this bug became a thing of the past and confirmation emails were being successfully sent once a user made a purchase.
 
 ## Testing User Stories
 
