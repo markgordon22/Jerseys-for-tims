@@ -86,7 +86,7 @@ def edit_faq(request, faq_id):
 def delete_faq(request, faq_id):
     """ Delete a faq """
     if not request.user.is_superuser:
-        messages.error(request, 'Only the guys at Jerseys for Tims can do this team are permitted to do this.')
+        messages.error(request, 'Only the guys at Jerseys for Tims can do this.')
         return redirect(reverse('home'))
 
     faq = get_object_or_404(Faq, pk=faq_id)
