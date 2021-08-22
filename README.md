@@ -988,7 +988,7 @@ Run your own app with:
 
 - For the contact app I followed [Twilio](https://www.twilio.com/blog/build-contact-form-python-django-twilio-sendgrid)
 - To render the scroll back to top arrow on the about page and products pages I used code from [W3 schools](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp)
-- [Bootstrap](https://getbootstrap.com/docs/5.0/forms/layout/) used to make footer, navbar, cards, toasts, cards images and buttons.
+- [Bootstrap](https://getbootstrap.com/docs/5.0/forms/layout/) used to make footer, navbar, cards, toasts, cards, images,links and buttons.
 - [Stackoverflow](https://stackoverflow.com/questions/55227106/css-animation-text-sliding-left-to-right) for help on how to make the scroll text animation on the delivery banner
 - [Django Docs](https://django-book.readthedocs.io/en/latest/chapter14.html) was a guide used to look over elements such as django imports, models and admin panels.
 - Credit to the [Structure for this Readme](https://github.com/elerel/ms4-siopa-fia)
@@ -999,7 +999,7 @@ Run your own app with:
 - All jerseys descriptions were written by me as Ive grown up watching celtic and knowing the different jerseys used over the past years and the players that have worn them.
  
 **Media:**
-- All images were taken from Google images
+- All images were taken from Google images.
 
 ### **Disclaimer**
 All content on this site is for educational purposes solely.
