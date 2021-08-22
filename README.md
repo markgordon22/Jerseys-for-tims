@@ -1,6 +1,6 @@
 # Project Overview
  
-View the live project [here.]()
+View the live project [here.](https://jerseys-for-tims.herokuapp.com/)
  
 Jerseys for Tims was my final milestone project as part of the Code Institute's Software Development Diploma. This project is intended to be a full-stack e-commerce site, with the use Python, Django, based on a fictional online Irish celtic jersey website (Jerseys for Tims) which sells celtic jerseys over the previous 4 decades(home and away), home merchandise with deals and special offeres. Users of the site can search products available. Read FAQS of the site posted by the owner, register an account to keep track of purchases. Jerseys for Tims, ultimately is a store where users can find their favorite celtic jerseys and merchandise that promotes celtic football club, for people who love and follow their team like it is a religon.
  
@@ -8,7 +8,7 @@ Jerseys for Tims was my final milestone project as part of the Code Institute's 
 The rationale behind making Jerseys for Tims was my love for celtic football club. Jerseys for Tims was made to reflect  every valuable takeaway studied from the [Code Institute's Full Stack Diploma in Web Development](https://codeinstitute.net/) course, maintaining a MVP approach to the site whilst creating a fully-functioning e-commerce site.
  
  
-Primary functions of Siopa Fia:
+Primary functions of Jerseys for Tims
 - Product purchase functionality
 - User authentication and authorisation
 - Customer profile page which will contain purchase history and store customer details
@@ -964,12 +964,6 @@ Run your own app with:
 **Media:**
 - All images were taken from Google imagess
 
-***images***
-
-
-
-
- 
 ### **Disclaimer**
 All content on this site is for educational purposes solely.
  
