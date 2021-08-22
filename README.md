@@ -376,7 +376,137 @@ Bugs encountered throughout production.
 
 8. Confirmation emails were not being sent to the user once they had made a purchase. With help from Michael at tutor he saw that my stripe webhook in the heroku configs was not corresponding to the webhook in my stripe account. Once the stripe webhooks matched this bug became a thing of the past and confirmation emails were being successfully sent once a user made a purchase.
 
-## Testing User Stories
+## Validation
+
+No errors in html.
+
+![image](testing/htmlvalidator.png)
+
+2 errors in css from the bootstrap cdn which is out of my control to try and fix.
+
+![image](testing/cassvalidator.png)
+
+Javascript
+
+No errors in stripe js
+
+![image](testing/stripejs.png)
+
+No errors in countryfield js
+
+![image](testing/countryfieldjs.png)
+
+Pep 8
+
+![image](testing/pepvalidator.png)
+![image](testing/pep2.png)
+Many originally errors were shown in views.py files with lines containing over 80 characters. However, these were removed.
+
+## Test user stories
+
+### First time user stories
+
+"easily navigate around Jerseys for Tims"
+- With the use of the navlinks, nav toggler it is simple to be bale to navigate around the site and look at items.
+
+"view the site on multiple screen devices and sizes"
+- The site has been tested on multiple devices on dev tools so this allows users to the site to view our site on their phone, tablet or desktop devices.
+
+"see different lists of products"
+- Below is an image of the lists of products that is on offer at Jerseys for Tims.
+
+![image](userstories/userstory1.png)
+
+![image](userstories/userstory1(2).png)
+
+
+"see product details/info"
+- Once the user clicks on a product that they like on the products page, they can click the product image or the quick view button and thye will be redirected to the product details page.
+
+![image](userstories/userstory3.png)
+
+
+"read company description and the story behind it"
+- The user can read baout the company, their operations and the people behing Jerseys for Tims
+
+![image](userstories/companyuserstory.png)
+
+"search for product categories"
+- The user can search for categories through the select box that is present on every products page regardless of what category it is.
+
+![image](userstories/categoryuserstory.png)
+
+
+"search for a product by name, category."
+- The user can easily search for a product by name/category. Example below is the user is looking for jerseys and has the options of browsing jerseys over the last 4 decades.
+
+![image](userstories/categorybynameuserstory.png)
+
+
+"view items chosen/selected in my shopping bag"
+- User can view items in their bag by clicking on the bag icon on the top right of the screen
+
+![image](userstories/baguserstory.png)
+
+"modify shopping bag contents"
+- User can alter the number of items in their bag by clicking either the update or remove links just below the select box.
+
+![image](userstories/alterbagitems.png)
+
+"access contact details of the company"
+- The user can get contact details for the company as the company phone number is on the contact page.
+
+![image](userstories/contactuserstory2.png)
+
+
+
+"access social media platforms of the company"
+- The user can contact the company via there many social media platforms in the footer.
+
+![image](userstories/contactuserstory.png)
+
+"register a user profile account by picking a username, password"
+- A new user to the site can register for an account by inserting a username that has not been taken and a password.
+
+![image](userstories/registeruserstory.png)
+
+When the user successfully registers they get brought to this page.
+
+![image](userstories/register(2)userstory.png)
+
+Once they confirm their email address they then get brough to this page.
+
+![image](userstories/register(3).png)
+
+They get asked to sign in and then they are redirected to the home page of the site
+
+![image](userstories/register4.png)
+
+
+"make purchases as a guest user"
+- The user can successfully make purchases even if they dont wish to make an account.
+
+![image](userstories/non-registerreduserstory.png)
+
+Above there are buttons to login into the account or and to register. The user if they wish to can login/register to carry out their payment or should they please, pay for their goods as a guest.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
