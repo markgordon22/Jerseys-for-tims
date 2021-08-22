@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
 
 html{
@@ -72,7 +79,9 @@ color: #000000
 a.shop-button.btn.btn-lg.rounded-0.center-align:hover{
 background-color: #000000;
 color: #ffffff;
-transform: scale(1.01);
+-webkit-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+        transform: scale(1.01);
 }
 
 
@@ -102,7 +111,9 @@ font-size: 2em;
   text-align: left;
   color: #ffffff;
   font-size: 2em;
-  transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+      -ms-transform: scale(1.02);
+          transform: scale(1.02);
 }
 
 input.form-control.input-border{
@@ -141,35 +152,31 @@ padding-top: 150px;
     100% {opacity:1;}
   }
   
-  @-moz-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
-  
   @-webkit-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
-  
-  @-o-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
-  
-  @-ms-keyframes fadeIn {
     0% {opacity:0;}
     100% {opacity:1;}
   }
 
   
   div.col.bg h4 {
-    animation: 2s slide-right 2s forwards;
-    transform:translateX(-100%);
+    -webkit-animation: 2s slide-right 2s forwards;
+            animation: 2s slide-right 2s forwards;
+    -webkit-transform:translateX(-100%);
+        -ms-transform:translateX(-100%);
+            transform:translateX(-100%);
+  }
+  
+  @-webkit-keyframes slide-right {
+    to {
+      -webkit-transform:translateX(0);
+              transform:translateX(0);
+    }
   }
   
   @keyframes slide-right {
     to {
-      transform:translateX(0);
+      -webkit-transform:translateX(0);
+              transform:translateX(0);
     }
   }
  
@@ -188,7 +195,9 @@ padding-top: 150px;
   }
 
   img.card-img-top:hover{
-    transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+        -ms-transform: scale(1.02);
+            transform: scale(1.02);
     border-radius: 10px;
     border: 1px solid #343A40;
     }
@@ -304,7 +313,9 @@ a.view-product-link:hover{
   border-radius: 10px;
   display: block;
   margin: auto;
-  transform:scale(1.02)
+  -webkit-transform:scale(1.02);
+      -ms-transform:scale(1.02);
+          transform:scale(1.02)
   }
 
 /* -- products header on products page -- */
@@ -341,7 +352,9 @@ color: #343A40;
 a.btn.btn-outline-secondary.rounded-0:hover{
   color: #ffc107;
   background-color: #343A40;
-  transform:scale(1.02);
+  -webkit-transform:scale(1.02);
+      -ms-transform:scale(1.02);
+          transform:scale(1.02);
   letter-spacing: 1px;
 }
 
@@ -350,7 +363,9 @@ a.btn.btn-outline-secondary.mt-3.rounded-0.keep-shopping{
   background-color: #343A40;
   color: #ffc107;
   border-radius: 0px;
-  transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+      -ms-transform: scale(1.02);
+          transform: scale(1.02);
 }
 
 a.btn.btn-outline-secondary.mt-3.rounded-0.keep-shopping:hover{
@@ -363,7 +378,9 @@ input.btn.btn-outline-secondary:hover
 {
 color: #343A40;
 background-color: #ffc107;
-transform:scale(1.02);
+-webkit-transform:scale(1.02);
+    -ms-transform:scale(1.02);
+        transform:scale(1.02);
 letter-spacing: 1px;
 }
 
@@ -485,7 +502,9 @@ a.btn.btn-outline-secondary.rounded-0.toast-btn.mt-3.p-2.btn-block{
 
 a.btn.btn-outline-secondary.rounded-0.toast-btn.mt-3.p-2.btn-block:hover{
   border: 1px solid #000000;
-  transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+      -ms-transform: scale(1.02);
+          transform: scale(1.02);
 }
 
 /* -- sort selector box -- */
@@ -518,6 +537,22 @@ color: #ffffff;
   border-radius: 0;
 }
 
+.allauth-form-inner-content input::-webkit-input-placeholder {
+  color: grey;
+}
+
+.allauth-form-inner-content input::-moz-placeholder {
+  color: grey;
+}
+
+.allauth-form-inner-content input:-ms-input-placeholder {
+  color: grey;
+}
+
+.allauth-form-inner-content input::-ms-input-placeholder {
+  color: grey;
+}
+
 .allauth-form-inner-content input::placeholder {
   color: grey;
 }
@@ -542,7 +577,11 @@ display: inline-block;
   border-radius: 0;
 
   /* standard bootstrap btn transitions */
+  -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  -o-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
 }
 /* -- all auth code -- */
 .allauth-form-inner-content button:hover,
