@@ -1,6 +1,8 @@
 h2.logo-font{
 color: #343a40;
 }
+
+/* code from boutique ado walkthrough project */
 .order-history {
     max-height: 416px; /* height of profile form + submit button */
     overflow-y: auto;
