@@ -16,7 +16,7 @@ class FaqForm(forms.ModelForm):
             'question': 'question',
             'answer': 'answer',
             }
-        
+
         for field in self.fields:
             placeholder = f'{placeholders[field]} *'
             self.fields[field].widget.attrs['placeholder'] = placeholder

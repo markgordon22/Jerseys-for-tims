@@ -1,6 +1,4 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
-from django.shortcuts import render
-
 from django.contrib.auth.decorators import login_required
 from django.contrib import messages
 from .models import Faq
@@ -27,18 +25,21 @@ def add_faq(request):
     """ Add a faq to faq page"""
 
     if not request.user.is_superuser:
-        messages.error(request, 'Only the guys at Jerseys for Tims can do this :)')
+        messages.error(request,
+        'Only the guys at Jerseys for Tims can do this :)')
         return redirect(reverse('home'))
 
     if request.method == 'POST':
         form = FaqForm(request.POST, request.FILES)
         if form.is_valid():
             form.save()
-            messages.success(request, 'FAQ has been successfully added to list of faqs!')
+            messages.success(request,
+            'FAQ has been successfully added to list of faqs!')
             return redirect(reverse('faq'))
         else:
             messages.error(
-                request, 'Failed to add FAQ. Please check the form is valid and again')
+                request,
+                'Failed to add FAQ. Please check the form is valid and again')
     else:
         form = FaqForm()
 
@@ -86,7 +87,7 @@ def edit_faq(request, faq_id):
 def delete_faq(request, faq_id):
     """ Delete a faq """
     if not request.user.is_superuser:
-        messages.error(request, 'Only the guys at Jerseys for Tims can do this.')
+        messages.error(request, 'Only guys at Jerseys for Tims can do this.')
         return redirect(reverse('home'))
 
     faq = get_object_or_404(Faq, pk=faq_id)
