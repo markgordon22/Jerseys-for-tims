@@ -629,6 +629,77 @@ links users to the social media platforms to the company
 
 ## Crud testing
 
+### Create product
+
+Site owner can add a new product to the store by going into the myaccount dropdown and clicking product management from there the site owner will be greeted with this page.
+
+![image](userstories/crudtesting.png)
+
+The user can now go and add a product like so
+
+![image](userstories/addproduct.png)
+
+The site owner will now be redirected to the product detail page with the new product.
+
+![image](userstories/addproductcrudtesting.png)
+
+The site owner has created added a product and should they wish they can edit the product on the dit product page via the edit link like so
+
+![image](userstories/editproductcrudtesting.png)
+
+You can see below that the name and description of the product has been edited/updated.
+
+![image](userstories/updatedproductcrudtesting.png)
+
+The site owner should they wish can delete the product by clicking the delete link where they will be given this model clarifying to the site owner that they are sure of deleting the product as it will removed indefintley
+
+![image](userstories/deleteproduct.png)
+
+The product has now been removed.
+
+![image](userstories/deletedproductcrustesting.png)
+
+### Create faq
+
+The site owner can add faqs to the faq page by clicking the faqs page from the about us dropdown.
+
+![image](userstories/addfaq.png)
+
+The user can get to the add faq page by clicking the add button
+where they will see this below
+
+![image](userstories/addfaq2.png)
+
+The site owner can now add an faq
+
+![image](userstories/addfaq3.png)
+
+The site owner has successfully added an faq
+
+![image](userstories/editfaqcrustesting.png)
+
+The edited faq can be seen above.
+
+The site owner can now delete the faq by clicking the delete button.
+where a model will render asking the site owner are they sure they want to delete the faq.
+
+![image](userstories/editfaqcrustesting2.png)
+
+The site owner once sure they want to delete the faq can click delete and the faq will be removed.
+
+![image](userstories/editfaq3.png)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
