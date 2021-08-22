@@ -553,6 +553,82 @@ Then the user can safely logout once they wish to via the myaccount dropdown
 ![image](userstories/managefaq.png)
 
 
+## Manual testing
+
+Home page
+
+All links work and navigate to their correct destination. Hero image is responsive, as well as the navbar, footer, delivery banner and navbar icons and social media icons.
+
+Products page
+
+The products page is responsive. All items render the price, buttons, rating and category of product. Quick view button navigates to the product details pafe as per intended.
+
+About page
+
+Text is displaying correctly, as well as base template features.
+Founder images are responsive.
+
+Contact page
+
+Form is responsive, Confirmation email is being successfully sent to the user as seen in the user story above. Buttons are operating correctly.
+
+Faq page
+
+Page renders all model content. Buttons are successfully only displaying on the site admin so only the site admin/owner can modify them.
+
+Product detail page
+
+Displaying all content of buttons, product description and edit and delete buttons for site owner in case they want to remove/update the item. All base template fetures are working correctly.
+
+Register page
+
+Form is rendering as per intended. Buttons redirect users to their correct destination and hero image is working as per intended along with all the base template features.
+
+Login page
+
+Form is rendering as per intended. Buttons redirect users to their correct destination and hero image is working as per intended along with all the base template features.
+
+Profile page
+
+User profile successfully saves all user's data and past orders. Base template features are responsive and rendering correct size/height as per device.
+
+Faq edit/add page
+
+Both pages work just fine. Base template features are responsive and rendering correct size/height. Site owner can easily update/remove/add faq should they wish.
+
+--The search bar in the navbar--
+
+The user can search for a product should they want to in the search bar. The backend code is working in regards to that the product name and description once entered in the bar will render any related products.
+
+--Select box--
+
+The select correctly adjust the search criteria for the users demands for all aspects such as highest rated products and cheapest products.
+
+-- The bag icon--
+
+Once clicked will correctly lead the user to their individual bag with their items that they have selected. If user clicks the bag icon but they have not put any items in the bag, then the else block will be fired "you have no items in your bag" with the button to redirect the user back to the products page.
+
+-- Payments --
+
+Payments have been tested and user will be successfully redirected back to the checkout success page with a receipt of their purchase.
+The payments were carried out with stripe with code courtesy of boutique ado.
+
+---social media links--
+
+links users to the social media platforms to the company
+
+- facebook
+
+- instagram
+
+- youtube
+
+- linkedinn
+
+- Twitter
+
+## Crud testing
+
 
 
 
