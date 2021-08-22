@@ -755,16 +755,6 @@ Webhook success
 
 ![image](userstories/teststripe3.png)
 
-
-
-
-
-
-
-
-
-
-
 # **Deployment**
  
 ## **Heroku Deployment with AWS**
@@ -1002,21 +992,21 @@ Run your own app with:
 - [Stackoverflow](https://stackoverflow.com/questions/55227106/css-animation-text-sliding-left-to-right) for help on how to make the scroll text animation on the delivery banner
 - [Django Docs](https://django-book.readthedocs.io/en/latest/chapter14.html) was a guide used to look over elements such as django imports, models and admin panels.
 - Credit to the [Structure for this Readme](https://github.com/elerel/ms4-siopa-fia)
+- Fade-in text on home page from [stackoverflow](https://stackoverflow.com/questions/11679567/using-css-for-a-fade-in-effect-on-page-load)
  
 **Content:**
 - [Yours Clothing](https://www.yoursclothing.ie/faq?glCountry=IE&glCurrency=GBP) was used to generate some sample faqs.
 - All jerseys descriptions were written by me as Ive grown up watching celtic and knowing the different jerseys used over the past years and the players that have worn them.
  
 **Media:**
-- All images were taken from Google imagess
-
-
+- All images were taken from Google images
 
 ### **Disclaimer**
 All content on this site is for educational purposes solely.
  
 ### **Acknowledgements**
-- My thanks to my mentor [**Rohit Sharma**] for his time and support during the throughout the course of being my mentor and a guide, the ever selfless Slack Community, CI tutor support (my special thanks to Scott, Igor, John, Sheryl and Michael!) and last but not least, [Chris Z](https://github.com/ckz8780) for explaining the walkthrough project so brilliantly.
+- My thanks to my mentor [**Rohit Sharma**] for his time and support during the throughout the course of being my mentor and a guide, the ever selfless Slack Community, CI tutor support (my special thanks to Scott, Igor, John, Sheryl and Michael!) but without [Chris Z's](https://github.com/ckz8780) excellent explaination throughout the walkthrough project, it would not have been possible
+
 - A big Thanks aswell to my family for their continued support.
  
  
